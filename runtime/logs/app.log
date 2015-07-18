@@ -1,0 +1,1573 @@
+2015-07-18 19:06:08 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\assets\AppAsset' not found' in C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\views\layouts\main.php:11
+Stack trace:
+#0 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile()
+#1 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\Controller.php(386): yii\base\View->renderFile()
+#2 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\Controller.php(372): yii\base\Controller->renderContent()
+#3 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\controllers\SiteController.php(94): yii\base\Controller->render()
+#4 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\InlineAction.php(55): app\controllers\SiteController->actionAbout()
+#5 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#6 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams()
+#7 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction()
+#8 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction()
+#9 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest()
+#10 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\web\index.php(12): yii\base\Application->run()
+#11 {main}
+2015-07-18 19:06:08 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '6400d7750d0898f3ed9791b4036325433b9b05e4876062aa3a32d7643c5bb7a8a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"DUe4MhtpujSjLTJdfnL5nf-DjwiTvPRG\";}'
+    'PHPSESSID' => '62mnpvkatskffopr2kupfodab5'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yii2'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:39.0) Gecko/20100101 Firefox/39.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://yii2/site/login.html'
+    'HTTP_COOKIE' => '_csrf=6400d7750d0898f3ed9791b4036325433b9b05e4876062aa3a32d7643c5bb7a8a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22DUe4MhtpujSjLTJdfnL5nf-DjwiTvPRG%22%3B%7D; PHPSESSID=62mnpvkatskffopr2kupfodab5'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Users\\Public\\Apache24\\modules\\php5.6.11;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\PC Connectivity Solution\\;C:\\Program Files\\Common Files\\Microsoft Shared\\Windows Live;C:\\Program Files (x86)\\Common Files\\Microsoft Shared\\Windows Live;C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\Common Files\\Acronis\\SnapAPI\\;C:\\Users\\Public\\Apache24\\bin;C:\\Program Files\\MySQL\\MySQL Server 5.5\\bin;C:\\Program Files\\Common Files\\Autodesk Shared\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\QuickTime\\QTSystem\\;C:\\Program Files (x86)\\Autodesk\\Backburner\\;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Win64) OpenSSL/1.0.1p PHP/5.6.11RC1'
+    'SERVER_NAME' => 'yii2'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/Public/Apache24/htdocs/yii2/yii2-app-basic/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/Public/Apache24/htdocs/yii2/yii2-app-basic/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Users/Public/Apache24/htdocs/yii2/yii2-app-basic/web/index.php'
+    'REMOTE_PORT' => '50978'
+    'REDIRECT_URL' => '/site/about.html'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/site/about.html'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1437235568.144
+    'REQUEST_TIME' => 1437235568
+]
+2015-07-18 19:06:12 [127.0.0.1][-][62mnpvkatskffopr2kupfodab5][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\assets\AppAsset' not found' in C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\views\layouts\main.php:11
+Stack trace:
+#0 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile()
+#1 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\Controller.php(386): yii\base\View->renderFile()
+#2 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\Controller.php(372): yii\base\Controller->renderContent()
+#3 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\controllers\SiteController.php(67): yii\base\Controller->render()
+#4 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\InlineAction.php(55): app\controllers\SiteController->actionLogin()
+#5 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#6 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams()
+#7 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction()
+#8 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction()
+#9 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest()
+#10 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\web\index.php(12): yii\base\Application->run()
+#11 {main}
+2015-07-18 19:06:12 [127.0.0.1][-][62mnpvkatskffopr2kupfodab5][info][application] $_COOKIE = [
+    '_csrf' => '6400d7750d0898f3ed9791b4036325433b9b05e4876062aa3a32d7643c5bb7a8a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"DUe4MhtpujSjLTJdfnL5nf-DjwiTvPRG\";}'
+    'PHPSESSID' => '62mnpvkatskffopr2kupfodab5'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'babamiq'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yii2'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:39.0) Gecko/20100101 Firefox/39.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://yii2/site.html'
+    'HTTP_COOKIE' => '_csrf=6400d7750d0898f3ed9791b4036325433b9b05e4876062aa3a32d7643c5bb7a8a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22DUe4MhtpujSjLTJdfnL5nf-DjwiTvPRG%22%3B%7D; PHPSESSID=62mnpvkatskffopr2kupfodab5'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Users\\Public\\Apache24\\modules\\php5.6.11;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\PC Connectivity Solution\\;C:\\Program Files\\Common Files\\Microsoft Shared\\Windows Live;C:\\Program Files (x86)\\Common Files\\Microsoft Shared\\Windows Live;C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\Common Files\\Acronis\\SnapAPI\\;C:\\Users\\Public\\Apache24\\bin;C:\\Program Files\\MySQL\\MySQL Server 5.5\\bin;C:\\Program Files\\Common Files\\Autodesk Shared\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\QuickTime\\QTSystem\\;C:\\Program Files (x86)\\Autodesk\\Backburner\\;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Win64) OpenSSL/1.0.1p PHP/5.6.11RC1'
+    'SERVER_NAME' => 'yii2'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/Public/Apache24/htdocs/yii2/yii2-app-basic/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/Public/Apache24/htdocs/yii2/yii2-app-basic/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Users/Public/Apache24/htdocs/yii2/yii2-app-basic/web/index.php'
+    'REMOTE_PORT' => '50982'
+    'REDIRECT_URL' => '/site/login.html'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/site/login.html'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1437235572.717
+    'REQUEST_TIME' => 1437235572
+]
+2015-07-18 19:06:37 [127.0.0.1][-][62mnpvkatskffopr2kupfodab5][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\assets\AppAsset' not found' in C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\views\layouts\main.php:11
+Stack trace:
+#0 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile()
+#1 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\Controller.php(386): yii\base\View->renderFile()
+#2 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\Controller.php(372): yii\base\Controller->renderContent()
+#3 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\controllers\SiteController.php(67): yii\base\Controller->render()
+#4 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\InlineAction.php(55): app\controllers\SiteController->actionLogin()
+#5 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#6 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams()
+#7 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction()
+#8 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction()
+#9 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest()
+#10 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\web\index.php(12): yii\base\Application->run()
+#11 {main}
+2015-07-18 19:06:36 [127.0.0.1][-][62mnpvkatskffopr2kupfodab5][info][application] $_COOKIE = [
+    '_csrf' => '6400d7750d0898f3ed9791b4036325433b9b05e4876062aa3a32d7643c5bb7a8a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"DUe4MhtpujSjLTJdfnL5nf-DjwiTvPRG\";}'
+    'PHPSESSID' => '62mnpvkatskffopr2kupfodab5'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'babamiq'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yii2'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:39.0) Gecko/20100101 Firefox/39.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://yii2/site.html'
+    'HTTP_COOKIE' => '_csrf=6400d7750d0898f3ed9791b4036325433b9b05e4876062aa3a32d7643c5bb7a8a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22DUe4MhtpujSjLTJdfnL5nf-DjwiTvPRG%22%3B%7D; PHPSESSID=62mnpvkatskffopr2kupfodab5'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'PATH' => 'C:\\Users\\Public\\Apache24\\modules\\php5.6.11;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\PC Connectivity Solution\\;C:\\Program Files\\Common Files\\Microsoft Shared\\Windows Live;C:\\Program Files (x86)\\Common Files\\Microsoft Shared\\Windows Live;C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\Common Files\\Acronis\\SnapAPI\\;C:\\Users\\Public\\Apache24\\bin;C:\\Program Files\\MySQL\\MySQL Server 5.5\\bin;C:\\Program Files\\Common Files\\Autodesk Shared\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\QuickTime\\QTSystem\\;C:\\Program Files (x86)\\Autodesk\\Backburner\\;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Win64) OpenSSL/1.0.1p PHP/5.6.11RC1'
+    'SERVER_NAME' => 'yii2'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/Public/Apache24/htdocs/yii2/yii2-app-basic/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/Public/Apache24/htdocs/yii2/yii2-app-basic/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Users/Public/Apache24/htdocs/yii2/yii2-app-basic/web/index.php'
+    'REMOTE_PORT' => '50988'
+    'REDIRECT_URL' => '/site/login.html'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/site/login.html'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1437235596.905
+    'REQUEST_TIME' => 1437235596
+]
+2015-07-18 19:08:27 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\assets\AppAsset' not found' in C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\views\layouts\main.php:11
+Stack trace:
+#0 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile()
+#1 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\Controller.php(386): yii\base\View->renderFile()
+#2 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\Controller.php(372): yii\base\Controller->renderContent()
+#3 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\controllers\SiteController.php(52): yii\base\Controller->render()
+#4 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\InlineAction.php(55): app\controllers\SiteController->actionIndex()
+#5 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#6 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams()
+#7 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction()
+#8 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction()
+#9 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest()
+#10 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\web\index.php(12): yii\base\Application->run()
+#11 {main}
+2015-07-18 19:08:27 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '6400d7750d0898f3ed9791b4036325433b9b05e4876062aa3a32d7643c5bb7a8a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"DUe4MhtpujSjLTJdfnL5nf-DjwiTvPRG\";}'
+    'PHPSESSID' => '62mnpvkatskffopr2kupfodab5'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yii2'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:39.0) Gecko/20100101 Firefox/39.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://yii2/site/contact.html'
+    'HTTP_COOKIE' => '_csrf=6400d7750d0898f3ed9791b4036325433b9b05e4876062aa3a32d7643c5bb7a8a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22DUe4MhtpujSjLTJdfnL5nf-DjwiTvPRG%22%3B%7D; PHPSESSID=62mnpvkatskffopr2kupfodab5'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Users\\Public\\Apache24\\modules\\php5.6.11;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\PC Connectivity Solution\\;C:\\Program Files\\Common Files\\Microsoft Shared\\Windows Live;C:\\Program Files (x86)\\Common Files\\Microsoft Shared\\Windows Live;C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\Common Files\\Acronis\\SnapAPI\\;C:\\Users\\Public\\Apache24\\bin;C:\\Program Files\\MySQL\\MySQL Server 5.5\\bin;C:\\Program Files\\Common Files\\Autodesk Shared\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\QuickTime\\QTSystem\\;C:\\Program Files (x86)\\Autodesk\\Backburner\\;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Win64) OpenSSL/1.0.1p PHP/5.6.11RC1'
+    'SERVER_NAME' => 'yii2'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/Public/Apache24/htdocs/yii2/yii2-app-basic/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/Public/Apache24/htdocs/yii2/yii2-app-basic/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Users/Public/Apache24/htdocs/yii2/yii2-app-basic/web/index.php'
+    'REMOTE_PORT' => '51043'
+    'REDIRECT_URL' => '/site.html'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/site.html'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1437235707.392
+    'REQUEST_TIME' => 1437235707
+]
+2015-07-18 19:08:29 [127.0.0.1][-][62mnpvkatskffopr2kupfodab5][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\assets\AppAsset' not found' in C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\views\layouts\main.php:11
+Stack trace:
+#0 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile()
+#1 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\Controller.php(386): yii\base\View->renderFile()
+#2 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\Controller.php(372): yii\base\Controller->renderContent()
+#3 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\controllers\SiteController.php(88): yii\base\Controller->render()
+#4 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\InlineAction.php(55): app\controllers\SiteController->actionContact()
+#5 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#6 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams()
+#7 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction()
+#8 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction()
+#9 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest()
+#10 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\web\index.php(12): yii\base\Application->run()
+#11 {main}
+2015-07-18 19:08:28 [127.0.0.1][-][62mnpvkatskffopr2kupfodab5][info][application] $_COOKIE = [
+    '_csrf' => '6400d7750d0898f3ed9791b4036325433b9b05e4876062aa3a32d7643c5bb7a8a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"DUe4MhtpujSjLTJdfnL5nf-DjwiTvPRG\";}'
+    'PHPSESSID' => '62mnpvkatskffopr2kupfodab5'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'babamiq'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yii2'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:39.0) Gecko/20100101 Firefox/39.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://yii2/site/about.html'
+    'HTTP_COOKIE' => '_csrf=6400d7750d0898f3ed9791b4036325433b9b05e4876062aa3a32d7643c5bb7a8a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22DUe4MhtpujSjLTJdfnL5nf-DjwiTvPRG%22%3B%7D; PHPSESSID=62mnpvkatskffopr2kupfodab5'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Users\\Public\\Apache24\\modules\\php5.6.11;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\PC Connectivity Solution\\;C:\\Program Files\\Common Files\\Microsoft Shared\\Windows Live;C:\\Program Files (x86)\\Common Files\\Microsoft Shared\\Windows Live;C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\Common Files\\Acronis\\SnapAPI\\;C:\\Users\\Public\\Apache24\\bin;C:\\Program Files\\MySQL\\MySQL Server 5.5\\bin;C:\\Program Files\\Common Files\\Autodesk Shared\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\QuickTime\\QTSystem\\;C:\\Program Files (x86)\\Autodesk\\Backburner\\;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Win64) OpenSSL/1.0.1p PHP/5.6.11RC1'
+    'SERVER_NAME' => 'yii2'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/Public/Apache24/htdocs/yii2/yii2-app-basic/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/Public/Apache24/htdocs/yii2/yii2-app-basic/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Users/Public/Apache24/htdocs/yii2/yii2-app-basic/web/index.php'
+    'REMOTE_PORT' => '51047'
+    'REDIRECT_URL' => '/site/contact.html'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/site/contact.html'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1437235708.888
+    'REQUEST_TIME' => 1437235708
+]
+2015-07-18 19:09:43 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\assets\AppAsset' not found' in C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\views\layouts\main.php:11
+Stack trace:
+#0 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile()
+#1 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\Controller.php(386): yii\base\View->renderFile()
+#2 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\Controller.php(372): yii\base\Controller->renderContent()
+#3 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\controllers\SiteController.php(52): yii\base\Controller->render()
+#4 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\InlineAction.php(55): app\controllers\SiteController->actionIndex()
+#5 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#6 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams()
+#7 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction()
+#8 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction()
+#9 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest()
+#10 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\web\index.php(12): yii\base\Application->run()
+#11 {main}
+2015-07-18 19:09:43 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '6400d7750d0898f3ed9791b4036325433b9b05e4876062aa3a32d7643c5bb7a8a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"DUe4MhtpujSjLTJdfnL5nf-DjwiTvPRG\";}'
+    'PHPSESSID' => '62mnpvkatskffopr2kupfodab5'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yii2'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:39.0) Gecko/20100101 Firefox/39.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://yii2/site/contact.html'
+    'HTTP_COOKIE' => '_csrf=6400d7750d0898f3ed9791b4036325433b9b05e4876062aa3a32d7643c5bb7a8a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22DUe4MhtpujSjLTJdfnL5nf-DjwiTvPRG%22%3B%7D; PHPSESSID=62mnpvkatskffopr2kupfodab5'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'PATH' => 'C:\\Users\\Public\\Apache24\\modules\\php5.6.11;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\PC Connectivity Solution\\;C:\\Program Files\\Common Files\\Microsoft Shared\\Windows Live;C:\\Program Files (x86)\\Common Files\\Microsoft Shared\\Windows Live;C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\Common Files\\Acronis\\SnapAPI\\;C:\\Users\\Public\\Apache24\\bin;C:\\Program Files\\MySQL\\MySQL Server 5.5\\bin;C:\\Program Files\\Common Files\\Autodesk Shared\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\QuickTime\\QTSystem\\;C:\\Program Files (x86)\\Autodesk\\Backburner\\;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Win64) OpenSSL/1.0.1p PHP/5.6.11RC1'
+    'SERVER_NAME' => 'yii2'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/Public/Apache24/htdocs/yii2/yii2-app-basic/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/Public/Apache24/htdocs/yii2/yii2-app-basic/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Users/Public/Apache24/htdocs/yii2/yii2-app-basic/web/index.php'
+    'REMOTE_PORT' => '51083'
+    'REDIRECT_URL' => '/site.html'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/site.html'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1437235783.771
+    'REQUEST_TIME' => 1437235783
+]
+2015-07-18 19:09:45 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\assets\AppAsset' not found' in C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\views\layouts\main.php:11
+Stack trace:
+#0 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile()
+#1 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\Controller.php(386): yii\base\View->renderFile()
+#2 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\Controller.php(372): yii\base\Controller->renderContent()
+#3 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\controllers\SiteController.php(52): yii\base\Controller->render()
+#4 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\InlineAction.php(55): app\controllers\SiteController->actionIndex()
+#5 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#6 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams()
+#7 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction()
+#8 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction()
+#9 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest()
+#10 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\web\index.php(12): yii\base\Application->run()
+#11 {main}
+2015-07-18 19:09:44 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '6400d7750d0898f3ed9791b4036325433b9b05e4876062aa3a32d7643c5bb7a8a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"DUe4MhtpujSjLTJdfnL5nf-DjwiTvPRG\";}'
+    'PHPSESSID' => '62mnpvkatskffopr2kupfodab5'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yii2'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:39.0) Gecko/20100101 Firefox/39.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://yii2/site/contact.html'
+    'HTTP_COOKIE' => '_csrf=6400d7750d0898f3ed9791b4036325433b9b05e4876062aa3a32d7643c5bb7a8a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22DUe4MhtpujSjLTJdfnL5nf-DjwiTvPRG%22%3B%7D; PHPSESSID=62mnpvkatskffopr2kupfodab5'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'PATH' => 'C:\\Users\\Public\\Apache24\\modules\\php5.6.11;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\PC Connectivity Solution\\;C:\\Program Files\\Common Files\\Microsoft Shared\\Windows Live;C:\\Program Files (x86)\\Common Files\\Microsoft Shared\\Windows Live;C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\Common Files\\Acronis\\SnapAPI\\;C:\\Users\\Public\\Apache24\\bin;C:\\Program Files\\MySQL\\MySQL Server 5.5\\bin;C:\\Program Files\\Common Files\\Autodesk Shared\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\QuickTime\\QTSystem\\;C:\\Program Files (x86)\\Autodesk\\Backburner\\;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Win64) OpenSSL/1.0.1p PHP/5.6.11RC1'
+    'SERVER_NAME' => 'yii2'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/Public/Apache24/htdocs/yii2/yii2-app-basic/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/Public/Apache24/htdocs/yii2/yii2-app-basic/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Users/Public/Apache24/htdocs/yii2/yii2-app-basic/web/index.php'
+    'REMOTE_PORT' => '51087'
+    'REDIRECT_URL' => '/site.html'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/site.html'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1437235784.985
+    'REQUEST_TIME' => 1437235784
+]
+2015-07-18 19:13:45 [127.0.0.1][-][-][error][yii\base\InvalidParamException] exception 'yii\base\InvalidParamException' with message 'The file or directory to be published does not exist: C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\bower/html5shiv/dist' in C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\web\AssetManager.php:407
+Stack trace:
+#0 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\web\AssetBundle.php(163): yii\web\AssetManager->publish('C:\\Users\\Public...', Array)
+#1 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\web\AssetManager.php(230): yii\web\AssetBundle->publish(Object(yii\web\AssetManager))
+#2 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\web\AssetManager.php(201): yii\web\AssetManager->loadBundle('app\\assets\\Html...', Array, true)
+#3 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\web\View.php(284): yii\web\AssetManager->getBundle('app\\assets\\Html...')
+#4 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\web\View.php(289): yii\web\View->registerAssetBundle('app\\assets\\Html...', NULL)
+#5 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\web\AssetBundle.php(119): yii\web\View->registerAssetBundle('app\\assets\\AppA...')
+#6 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\views\layouts\main.php(11): yii\web\AssetBundle::register(Object(yii\web\View))
+#7 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\View.php(325): require('C:\\Users\\Public...')
+#8 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\\Users\\Public...', Array)
+#9 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\Controller.php(386): yii\base\View->renderFile('C:\\Users\\Public...', Array, Object(app\controllers\SiteController))
+#10 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\Controller.php(372): yii\base\Controller->renderContent('<div class="sit...')
+#11 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\controllers\SiteController.php(52): yii\base\Controller->render('index')
+#12 [internal function]: app\controllers\SiteController->actionIndex()
+#13 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#14 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#15 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('index', Array)
+#16 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('site/index', Array)
+#17 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#18 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\web\index.php(12): yii\base\Application->run()
+#19 {main}
+2015-07-18 19:13:45 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '6400d7750d0898f3ed9791b4036325433b9b05e4876062aa3a32d7643c5bb7a8a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"DUe4MhtpujSjLTJdfnL5nf-DjwiTvPRG\";}'
+    'PHPSESSID' => '62mnpvkatskffopr2kupfodab5'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yii2'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:39.0) Gecko/20100101 Firefox/39.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://yii2/site/contact.html'
+    'HTTP_COOKIE' => '_csrf=6400d7750d0898f3ed9791b4036325433b9b05e4876062aa3a32d7643c5bb7a8a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22DUe4MhtpujSjLTJdfnL5nf-DjwiTvPRG%22%3B%7D; PHPSESSID=62mnpvkatskffopr2kupfodab5'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'PATH' => 'C:\\Users\\Public\\Apache24\\modules\\php5.6.11;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\PC Connectivity Solution\\;C:\\Program Files\\Common Files\\Microsoft Shared\\Windows Live;C:\\Program Files (x86)\\Common Files\\Microsoft Shared\\Windows Live;C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\Common Files\\Acronis\\SnapAPI\\;C:\\Users\\Public\\Apache24\\bin;C:\\Program Files\\MySQL\\MySQL Server 5.5\\bin;C:\\Program Files\\Common Files\\Autodesk Shared\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\QuickTime\\QTSystem\\;C:\\Program Files (x86)\\Autodesk\\Backburner\\;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Win64) OpenSSL/1.0.1p PHP/5.6.11RC1'
+    'SERVER_NAME' => 'yii2'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/Public/Apache24/htdocs/yii2/yii2-app-basic/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/Public/Apache24/htdocs/yii2/yii2-app-basic/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Users/Public/Apache24/htdocs/yii2/yii2-app-basic/web/index.php'
+    'REMOTE_PORT' => '51172'
+    'REDIRECT_URL' => '/site.html'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/site.html'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1437236025.417
+    'REQUEST_TIME' => 1437236025
+]
+2015-07-18 19:25:37 [-][-][-][error][yii\console\Exception] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "migrete/up".' in C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\console\Application.php(161): yii\base\Module->runAction('migrete/up', Array)
+#1 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\console\Application.php(137): yii\console\Application->runAction('migrete/up', Array)
+#2 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#3 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\yii(23): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\console\Exception' with message 'Unknown command "migrete/up".' in C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\console\Application.php:163
+Stack trace:
+#0 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\console\Application.php(137): yii\console\Application->runAction('migrete/up', Array)
+#1 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\yii(23): yii\base\Application->run()
+#3 {main}
+2015-07-18 19:25:37 [-][-][-][info][application] $_SERVER = [
+    'ADSK_MAXDES_x64_2013' => 'C:\\Program Files\\Autodesk\\3ds Max Design 2013\\'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'AMDAPPSDKROOT' => 'C:\\Program Files (x86)\\AMD APP\\'
+    'APPDATA' => 'C:\\Users\\Maria-Alexey\\AppData\\Roaming'
+    'CLASSPATH' => '.;C:\\Program Files (x86)\\Java\\jre7\\lib\\ext\\QTJava.zip'
+    'CM2013DIR' => 'C:\\Program Files (x86)\\Common Files\\Autodesk Shared\\Materials\\'
+    'CM2014DIR' => 'C:\\Program Files (x86)\\Common Files\\Autodesk Shared\\Materials\\'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'HOME'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'ESET_OPTIONS' => '                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               '
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Maria-Alexey'
+    'ILBDIR' => 'C:\\Program Files (x86)\\Common Files\\Autodesk Shared\\Materials\\'
+    'ILMDIR' => 'C:\\Program Files (x86)\\Common Files\\Autodesk Shared\\Materials\\'
+    'LOCALAPPDATA' => 'C:\\Users\\Maria-Alexey\\AppData\\Local'
+    'LOGONSERVER' => '\\\\HOME'
+    'NUMBER_OF_PROCESSORS' => '2'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Users\\Public\\Apache24\\modules\\php5.6.11;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\PC Connectivity Solution\\;C:\\Program Files\\Common Files\\Microsoft Shared\\Windows Live;C:\\Program Files (x86)\\Common Files\\Microsoft Shared\\Windows Live;C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\Common Files\\Acronis\\SnapAPI\\;C:\\Users\\Public\\Apache24\\bin;C:\\Program Files\\MySQL\\MySQL Server 5.5\\bin;C:\\Program Files\\Common Files\\Autodesk Shared\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\QuickTime\\QTSystem\\;C:\\Program Files (x86)\\Autodesk\\Backburner\\;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\ProgramData\\ComposerSetup\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 23 Stepping 6, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '1706'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'QTJAVA' => 'C:\\Program Files (x86)\\Java\\jre7\\lib\\ext\\QTJava.zip'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\MARIA-~1\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\MARIA-~1\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'HOME'
+    'USERNAME' => 'Maria-Alexey'
+    'USERPROFILE' => 'C:\\Users\\Maria-Alexey'
+    'VBOX_INSTALL_PATH' => 'C:\\Program Files\\Oracle\\VirtualBox\\'
+    'VRAY_METASL_PATH_MSL12' => 'C:\\Program Files\\Chaos Group\\V-Ray\\3dsmax 2013 for x64/metasl/msl12'
+    'VRAY_RT_FOR_3DSMAX2013_MAIN_x64' => 'C:\\Program Files\\Chaos Group\\V-Ray\\RT for 3ds Max 2013 for x64/bin'
+    'VRAY_RT_FOR_3DSMAX2013_PLUGINS_x64' => 'C:\\Program Files\\Chaos Group\\V-Ray\\RT for 3ds Max 2013 for x64/bin/plugins'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1437236737.2236
+    'REQUEST_TIME' => 1437236737
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrete/up'
+    ]
+    'argc' => 2
+]
+2015-07-18 19:25:59 [-][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'm150718_161902_create_user_table' not found' in C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\console\controllers\MigrateController.php:113
+Stack trace:
+#0 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(129): yii\console\controllers\BaseMigrateController->migrateUp()
+#1 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\InlineAction.php(55): yii\console\controllers\BaseMigrateController->actionUp()
+#2 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#3 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams()
+#4 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\console\Controller.php(91): yii\base\Controller->runAction()
+#5 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\Module.php(455): yii\console\Controller->runAction()
+#6 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\console\Application.php(161): yii\base\Module->runAction()
+#7 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\console\Application.php(137): yii\console\Application->runAction()
+#8 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest()
+#9 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\yii(23): yii\base\Application->run()
+#10 {main}
+2015-07-18 19:25:52 [-][-][-][info][application] $_SERVER = [
+    'ADSK_MAXDES_x64_2013' => 'C:\\Program Files\\Autodesk\\3ds Max Design 2013\\'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'AMDAPPSDKROOT' => 'C:\\Program Files (x86)\\AMD APP\\'
+    'APPDATA' => 'C:\\Users\\Maria-Alexey\\AppData\\Roaming'
+    'CLASSPATH' => '.;C:\\Program Files (x86)\\Java\\jre7\\lib\\ext\\QTJava.zip'
+    'CM2013DIR' => 'C:\\Program Files (x86)\\Common Files\\Autodesk Shared\\Materials\\'
+    'CM2014DIR' => 'C:\\Program Files (x86)\\Common Files\\Autodesk Shared\\Materials\\'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'HOME'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'ESET_OPTIONS' => '                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               '
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Maria-Alexey'
+    'ILBDIR' => 'C:\\Program Files (x86)\\Common Files\\Autodesk Shared\\Materials\\'
+    'ILMDIR' => 'C:\\Program Files (x86)\\Common Files\\Autodesk Shared\\Materials\\'
+    'LOCALAPPDATA' => 'C:\\Users\\Maria-Alexey\\AppData\\Local'
+    'LOGONSERVER' => '\\\\HOME'
+    'NUMBER_OF_PROCESSORS' => '2'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Users\\Public\\Apache24\\modules\\php5.6.11;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\PC Connectivity Solution\\;C:\\Program Files\\Common Files\\Microsoft Shared\\Windows Live;C:\\Program Files (x86)\\Common Files\\Microsoft Shared\\Windows Live;C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\Common Files\\Acronis\\SnapAPI\\;C:\\Users\\Public\\Apache24\\bin;C:\\Program Files\\MySQL\\MySQL Server 5.5\\bin;C:\\Program Files\\Common Files\\Autodesk Shared\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\QuickTime\\QTSystem\\;C:\\Program Files (x86)\\Autodesk\\Backburner\\;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\ProgramData\\ComposerSetup\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 23 Stepping 6, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '1706'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'QTJAVA' => 'C:\\Program Files (x86)\\Java\\jre7\\lib\\ext\\QTJava.zip'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\MARIA-~1\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\MARIA-~1\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'HOME'
+    'USERNAME' => 'Maria-Alexey'
+    'USERPROFILE' => 'C:\\Users\\Maria-Alexey'
+    'VBOX_INSTALL_PATH' => 'C:\\Program Files\\Oracle\\VirtualBox\\'
+    'VRAY_METASL_PATH_MSL12' => 'C:\\Program Files\\Chaos Group\\V-Ray\\3dsmax 2013 for x64/metasl/msl12'
+    'VRAY_RT_FOR_3DSMAX2013_MAIN_x64' => 'C:\\Program Files\\Chaos Group\\V-Ray\\RT for 3ds Max 2013 for x64/bin'
+    'VRAY_RT_FOR_3DSMAX2013_PLUGINS_x64' => 'C:\\Program Files\\Chaos Group\\V-Ray\\RT for 3ds Max 2013 for x64/bin/plugins'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1437236752.7025
+    'REQUEST_TIME' => 1437236752
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate/up'
+    ]
+    'argc' => 2
+]
+2015-07-18 19:29:00 [-][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'm150718_161902_create_user_table' not found' in C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\console\controllers\MigrateController.php:113
+Stack trace:
+#0 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(129): yii\console\controllers\BaseMigrateController->migrateUp()
+#1 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\InlineAction.php(55): yii\console\controllers\BaseMigrateController->actionUp()
+#2 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#3 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams()
+#4 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\console\Controller.php(91): yii\base\Controller->runAction()
+#5 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\Module.php(455): yii\console\Controller->runAction()
+#6 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\console\Application.php(161): yii\base\Module->runAction()
+#7 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\console\Application.php(137): yii\console\Application->runAction()
+#8 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest()
+#9 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\yii(23): yii\base\Application->run()
+#10 {main}
+2015-07-18 19:28:57 [-][-][-][info][application] $_SERVER = [
+    'ADSK_MAXDES_x64_2013' => 'C:\\Program Files\\Autodesk\\3ds Max Design 2013\\'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'AMDAPPSDKROOT' => 'C:\\Program Files (x86)\\AMD APP\\'
+    'APPDATA' => 'C:\\Users\\Maria-Alexey\\AppData\\Roaming'
+    'CLASSPATH' => '.;C:\\Program Files (x86)\\Java\\jre7\\lib\\ext\\QTJava.zip'
+    'CM2013DIR' => 'C:\\Program Files (x86)\\Common Files\\Autodesk Shared\\Materials\\'
+    'CM2014DIR' => 'C:\\Program Files (x86)\\Common Files\\Autodesk Shared\\Materials\\'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'HOME'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'ESET_OPTIONS' => '                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               '
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Maria-Alexey'
+    'ILBDIR' => 'C:\\Program Files (x86)\\Common Files\\Autodesk Shared\\Materials\\'
+    'ILMDIR' => 'C:\\Program Files (x86)\\Common Files\\Autodesk Shared\\Materials\\'
+    'LOCALAPPDATA' => 'C:\\Users\\Maria-Alexey\\AppData\\Local'
+    'LOGONSERVER' => '\\\\HOME'
+    'NUMBER_OF_PROCESSORS' => '2'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Users\\Public\\Apache24\\modules\\php5.6.11;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\PC Connectivity Solution\\;C:\\Program Files\\Common Files\\Microsoft Shared\\Windows Live;C:\\Program Files (x86)\\Common Files\\Microsoft Shared\\Windows Live;C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\Common Files\\Acronis\\SnapAPI\\;C:\\Users\\Public\\Apache24\\bin;C:\\Program Files\\MySQL\\MySQL Server 5.5\\bin;C:\\Program Files\\Common Files\\Autodesk Shared\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\QuickTime\\QTSystem\\;C:\\Program Files (x86)\\Autodesk\\Backburner\\;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\ProgramData\\ComposerSetup\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 23 Stepping 6, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '1706'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'QTJAVA' => 'C:\\Program Files (x86)\\Java\\jre7\\lib\\ext\\QTJava.zip'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\MARIA-~1\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\MARIA-~1\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'HOME'
+    'USERNAME' => 'Maria-Alexey'
+    'USERPROFILE' => 'C:\\Users\\Maria-Alexey'
+    'VBOX_INSTALL_PATH' => 'C:\\Program Files\\Oracle\\VirtualBox\\'
+    'VRAY_METASL_PATH_MSL12' => 'C:\\Program Files\\Chaos Group\\V-Ray\\3dsmax 2013 for x64/metasl/msl12'
+    'VRAY_RT_FOR_3DSMAX2013_MAIN_x64' => 'C:\\Program Files\\Chaos Group\\V-Ray\\RT for 3ds Max 2013 for x64/bin'
+    'VRAY_RT_FOR_3DSMAX2013_PLUGINS_x64' => 'C:\\Program Files\\Chaos Group\\V-Ray\\RT for 3ds Max 2013 for x64/bin/plugins'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1437236937.4731
+    'REQUEST_TIME' => 1437236937
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate/up'
+    ]
+    'argc' => 2
+]
+2015-07-18 19:49:23 [-][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'm150718_161902_create_user_table' not found' in C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\console\controllers\MigrateController.php:113
+Stack trace:
+#0 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(129): yii\console\controllers\BaseMigrateController->migrateUp()
+#1 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\InlineAction.php(55): yii\console\controllers\BaseMigrateController->actionUp()
+#2 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#3 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams()
+#4 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\console\Controller.php(91): yii\base\Controller->runAction()
+#5 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\Module.php(455): yii\console\Controller->runAction()
+#6 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\console\Application.php(161): yii\base\Module->runAction()
+#7 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\console\Application.php(137): yii\console\Application->runAction()
+#8 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest()
+#9 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\yii(23): yii\base\Application->run()
+#10 {main}
+2015-07-18 19:49:20 [-][-][-][info][application] $_SERVER = [
+    'ADSK_MAXDES_x64_2013' => 'C:\\Program Files\\Autodesk\\3ds Max Design 2013\\'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'AMDAPPSDKROOT' => 'C:\\Program Files (x86)\\AMD APP\\'
+    'APPDATA' => 'C:\\Users\\Maria-Alexey\\AppData\\Roaming'
+    'CLASSPATH' => '.;C:\\Program Files (x86)\\Java\\jre7\\lib\\ext\\QTJava.zip'
+    'CM2013DIR' => 'C:\\Program Files (x86)\\Common Files\\Autodesk Shared\\Materials\\'
+    'CM2014DIR' => 'C:\\Program Files (x86)\\Common Files\\Autodesk Shared\\Materials\\'
+    'COMMONPROGRAMFILES' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'HOME'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'ESET_OPTIONS' => '                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               '
+    'EXECIGNORE' => '*.dll'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOME' => 'C:\\Cygwin\\home\\Maria-Alexey'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Maria-Alexey'
+    'HOSTNAME' => 'home'
+    'ILBDIR' => 'C:\\Program Files (x86)\\Common Files\\Autodesk Shared\\Materials\\'
+    'ILMDIR' => 'C:\\Program Files (x86)\\Common Files\\Autodesk Shared\\Materials\\'
+    'INFOPATH' => '/usr/local/info:/usr/share/info:/usr/info'
+    'LANG' => 'ru_RU.UTF-8'
+    'LOCALAPPDATA' => 'C:\\Users\\Maria-Alexey\\AppData\\Local'
+    'LOGONSERVER' => '\\\\HOME'
+    'NUMBER_OF_PROCESSORS' => '2'
+    'OLDPWD' => '/cygdrive/c/users/public/Apache24/htdocs/yii2'
+    'ORIGINAL_PATH' => '/cygdrive/c/Users/Public/Apache24/modules/php5.6.11:/cygdrive/c/ProgramData/Oracle/Java/javapath:/cygdrive/c/Program Files (x86)/PC Connectivity Solution:/cygdrive/c/Program Files/Common Files/Microsoft Shared/Windows Live:/cygdrive/c/Program Files (x86)/Common Files/Microsoft Shared/Windows Live:/cygdrive/c/Program Files (x86)/AMD APP/bin/x86_64:/cygdrive/c/Windows/system32:/cygdrive/c/Windows:/cygdrive/c/Windows/System32/Wbem:/cygdrive/c/Windows/System32/WindowsPowerShell/v1.0:/cygdrive/c/Program Files (x86)/ATI Technologies/ATI.ACE/Core-Static:/cygdrive/c/Program Files (x86)/Common Files/Acronis/SnapAPI:/cygdrive/c/Users/Public/Apache24/bin:/cygdrive/c/Program Files/MySQL/MySQL Server 5.5/bin:/cygdrive/c/Program Files/Common Files/Autodesk Shared:/cygdrive/c/Program Files/TortoiseSVN/bin:/cygdrive/c/Program Files (x86)/QuickTime/QTSystem:/cygdrive/c/Program Files (x86)/Autodesk/Backburner:/cygdrive/c/Program Files (x86)/Windows Live/Shared:/cygdrive/c/ProgramData/ComposerSetup/bin'
+    'OS' => 'Windows_NT'
+    'PATH' => 'C:\\Cygwin\\usr\\local\\bin;C:\\Cygwin\\bin;C:\\Users\\Public\\Apache24\\modules\\php5.6.11;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\PC Connectivity Solution;C:\\Program Files\\Common Files\\Microsoft Shared\\Windows Live;C:\\Program Files (x86)\\Common Files\\Microsoft Shared\\Windows Live;C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\Common Files\\Acronis\\SnapAPI;C:\\Users\\Public\\Apache24\\bin;C:\\Program Files\\MySQL\\MySQL Server 5.5\\bin;C:\\Program Files\\Common Files\\Autodesk Shared;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\QuickTime\\QTSystem;C:\\Program Files (x86)\\Autodesk\\Backburner;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\ProgramData\\ComposerSetup\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PRINTER' => 'EPSON Stylus Photo R290 Series'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 23 Stepping 6, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '1706'
+    'PROFILEREAD' => 'true'
+    'PROGRAMFILES' => 'C:\\Program Files'
+    'PS1' => '\\[\\e]0;\\w\\a\\]\\n\\[\\e[32m\\]\\u@\\h \\[\\e[33m\\]\\w\\[\\e[0m\\]\\n\\$ '
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'PWD' => '/cygdrive/c/users/public/Apache24/htdocs/yii2/yii2-app-basic'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'QTJAVA' => 'C:\\Program Files (x86)\\Java\\jre7\\lib\\ext\\QTJava.zip'
+    'SESSIONNAME' => 'Console'
+    'SHELL' => '/bin/bash'
+    'SHLVL' => '1'
+    'SYSTEMDRIVE' => 'C:'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'TEMP' => 'C:\\Cygwin\\tmp'
+    'TERM' => 'xterm'
+    'TMP' => 'C:\\Cygwin\\tmp'
+    'TZ' => 'Europe/Moscow'
+    'USER' => 'Maria-Alexey'
+    'USERDOMAIN' => 'HOME'
+    'USERNAME' => 'Maria-Alexey'
+    'USERPROFILE' => 'C:\\Users\\Maria-Alexey'
+    'VBOX_INSTALL_PATH' => 'C:\\Program Files\\Oracle\\VirtualBox\\'
+    'VRAY_METASL_PATH_MSL12' => 'C:\\Program Files\\Chaos Group\\V-Ray\\3dsmax 2013 for x64/metasl/msl12'
+    'VRAY_RT_FOR_3DSMAX2013_MAIN_x64' => 'C:\\Program Files\\Chaos Group\\V-Ray\\RT for 3ds Max 2013 for x64/bin'
+    'VRAY_RT_FOR_3DSMAX2013_PLUGINS_x64' => 'C:\\Program Files\\Chaos Group\\V-Ray\\RT for 3ds Max 2013 for x64/bin/plugins'
+    'WINDIR' => 'C:\\Windows'
+    '_' => '/cygdrive/c/Users/Public/Apache24/modules/php5.6.11/php'
+    'windows_tracing_flags' => '3'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1437238160.539
+    'REQUEST_TIME' => 1437238160
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate/up'
+    ]
+    'argc' => 2
+]
+2015-07-18 20:14:56 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\web\Request.php:187
+Stack trace:
+#0 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\web\Application.php(75): yii\web\Request->resolve()
+#1 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\web\index.php(12): yii\base\Application->run()
+#3 {main}
+2015-07-18 20:14:56 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '6400d7750d0898f3ed9791b4036325433b9b05e4876062aa3a32d7643c5bb7a8a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"DUe4MhtpujSjLTJdfnL5nf-DjwiTvPRG\";}'
+    'PHPSESSID' => '62mnpvkatskffopr2kupfodab5'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'babamiq'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yii2'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:39.0) Gecko/20100101 Firefox/39.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=6400d7750d0898f3ed9791b4036325433b9b05e4876062aa3a32d7643c5bb7a8a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22DUe4MhtpujSjLTJdfnL5nf-DjwiTvPRG%22%3B%7D; PHPSESSID=62mnpvkatskffopr2kupfodab5'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Users\\Public\\Apache24\\modules\\php5.6.11;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\PC Connectivity Solution\\;C:\\Program Files\\Common Files\\Microsoft Shared\\Windows Live;C:\\Program Files (x86)\\Common Files\\Microsoft Shared\\Windows Live;C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\Common Files\\Acronis\\SnapAPI\\;C:\\Users\\Public\\Apache24\\bin;C:\\Program Files\\MySQL\\MySQL Server 5.5\\bin;C:\\Program Files\\Common Files\\Autodesk Shared\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\QuickTime\\QTSystem\\;C:\\Program Files (x86)\\Autodesk\\Backburner\\;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Win64) OpenSSL/1.0.1p PHP/5.6.11RC1'
+    'SERVER_NAME' => 'yii2'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/Public/Apache24/htdocs/yii2/yii2-app-basic/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/Public/Apache24/htdocs/yii2/yii2-app-basic/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Users/Public/Apache24/htdocs/yii2/yii2-app-basic/web/index.php'
+    'REMOTE_PORT' => '52360'
+    'REDIRECT_URL' => '/gii'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/gii'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1437239696.634
+    'REQUEST_TIME' => 1437239696
+]
+2015-07-18 20:50:50 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\web\Request.php:187
+Stack trace:
+#0 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\web\Application.php(75): yii\web\Request->resolve()
+#1 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\web\index.php(12): yii\base\Application->run()
+#3 {main}
+2015-07-18 20:50:50 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '6400d7750d0898f3ed9791b4036325433b9b05e4876062aa3a32d7643c5bb7a8a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"DUe4MhtpujSjLTJdfnL5nf-DjwiTvPRG\";}'
+    'PHPSESSID' => '62mnpvkatskffopr2kupfodab5'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'babamiq'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yii2'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:39.0) Gecko/20100101 Firefox/39.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=6400d7750d0898f3ed9791b4036325433b9b05e4876062aa3a32d7643c5bb7a8a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22DUe4MhtpujSjLTJdfnL5nf-DjwiTvPRG%22%3B%7D; PHPSESSID=62mnpvkatskffopr2kupfodab5'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Users\\Public\\Apache24\\modules\\php5.6.11;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\PC Connectivity Solution\\;C:\\Program Files\\Common Files\\Microsoft Shared\\Windows Live;C:\\Program Files (x86)\\Common Files\\Microsoft Shared\\Windows Live;C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\Common Files\\Acronis\\SnapAPI\\;C:\\Users\\Public\\Apache24\\bin;C:\\Program Files\\MySQL\\MySQL Server 5.5\\bin;C:\\Program Files\\Common Files\\Autodesk Shared\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\QuickTime\\QTSystem\\;C:\\Program Files (x86)\\Autodesk\\Backburner\\;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Win64) OpenSSL/1.0.1p PHP/5.6.11RC1'
+    'SERVER_NAME' => 'yii2'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/Public/Apache24/htdocs/yii2/yii2-app-basic/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/Public/Apache24/htdocs/yii2/yii2-app-basic/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Users/Public/Apache24/htdocs/yii2/yii2-app-basic/web/index.php'
+    'REMOTE_PORT' => '56288'
+    'REDIRECT_URL' => '/user'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/user'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1437241850.727
+    'REQUEST_TIME' => 1437241850
+]
+2015-07-18 20:52:46 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\web\Request.php:187
+Stack trace:
+#0 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\web\Application.php(75): yii\web\Request->resolve()
+#1 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\web\index.php(12): yii\base\Application->run()
+#3 {main}
+2015-07-18 20:52:46 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '6400d7750d0898f3ed9791b4036325433b9b05e4876062aa3a32d7643c5bb7a8a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"DUe4MhtpujSjLTJdfnL5nf-DjwiTvPRG\";}'
+    'PHPSESSID' => '62mnpvkatskffopr2kupfodab5'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'babamiq'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yii2'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:39.0) Gecko/20100101 Firefox/39.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=6400d7750d0898f3ed9791b4036325433b9b05e4876062aa3a32d7643c5bb7a8a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22DUe4MhtpujSjLTJdfnL5nf-DjwiTvPRG%22%3B%7D; PHPSESSID=62mnpvkatskffopr2kupfodab5'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'PATH' => 'C:\\Users\\Public\\Apache24\\modules\\php5.6.11;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\PC Connectivity Solution\\;C:\\Program Files\\Common Files\\Microsoft Shared\\Windows Live;C:\\Program Files (x86)\\Common Files\\Microsoft Shared\\Windows Live;C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\Common Files\\Acronis\\SnapAPI\\;C:\\Users\\Public\\Apache24\\bin;C:\\Program Files\\MySQL\\MySQL Server 5.5\\bin;C:\\Program Files\\Common Files\\Autodesk Shared\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\QuickTime\\QTSystem\\;C:\\Program Files (x86)\\Autodesk\\Backburner\\;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Win64) OpenSSL/1.0.1p PHP/5.6.11RC1'
+    'SERVER_NAME' => 'yii2'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/Public/Apache24/htdocs/yii2/yii2-app-basic/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/Public/Apache24/htdocs/yii2/yii2-app-basic/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Users/Public/Apache24/htdocs/yii2/yii2-app-basic/web/index.php'
+    'REMOTE_PORT' => '56434'
+    'REDIRECT_URL' => '/user'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/user'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1437241966.188
+    'REQUEST_TIME' => 1437241966
+]
+2015-07-18 20:53:03 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\web\Request.php:187
+Stack trace:
+#0 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\web\Application.php(75): yii\web\Request->resolve()
+#1 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\web\index.php(12): yii\base\Application->run()
+#3 {main}
+2015-07-18 20:53:03 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '6400d7750d0898f3ed9791b4036325433b9b05e4876062aa3a32d7643c5bb7a8a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"DUe4MhtpujSjLTJdfnL5nf-DjwiTvPRG\";}'
+    'PHPSESSID' => '62mnpvkatskffopr2kupfodab5'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'babamiq'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yii2'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:39.0) Gecko/20100101 Firefox/39.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=6400d7750d0898f3ed9791b4036325433b9b05e4876062aa3a32d7643c5bb7a8a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22DUe4MhtpujSjLTJdfnL5nf-DjwiTvPRG%22%3B%7D; PHPSESSID=62mnpvkatskffopr2kupfodab5'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Users\\Public\\Apache24\\modules\\php5.6.11;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\PC Connectivity Solution\\;C:\\Program Files\\Common Files\\Microsoft Shared\\Windows Live;C:\\Program Files (x86)\\Common Files\\Microsoft Shared\\Windows Live;C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\Common Files\\Acronis\\SnapAPI\\;C:\\Users\\Public\\Apache24\\bin;C:\\Program Files\\MySQL\\MySQL Server 5.5\\bin;C:\\Program Files\\Common Files\\Autodesk Shared\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\QuickTime\\QTSystem\\;C:\\Program Files (x86)\\Autodesk\\Backburner\\;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Win64) OpenSSL/1.0.1p PHP/5.6.11RC1'
+    'SERVER_NAME' => 'yii2'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/Public/Apache24/htdocs/yii2/yii2-app-basic/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/Public/Apache24/htdocs/yii2/yii2-app-basic/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Users/Public/Apache24/htdocs/yii2/yii2-app-basic/web/index.php'
+    'REMOTE_PORT' => '56460'
+    'REDIRECT_URL' => '/user'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/user'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1437241983.361
+    'REQUEST_TIME' => 1437241983
+]
+2015-07-18 20:53:11 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\web\Request.php:187
+Stack trace:
+#0 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\web\Application.php(75): yii\web\Request->resolve()
+#1 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\web\index.php(12): yii\base\Application->run()
+#3 {main}
+2015-07-18 20:53:11 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '6400d7750d0898f3ed9791b4036325433b9b05e4876062aa3a32d7643c5bb7a8a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"DUe4MhtpujSjLTJdfnL5nf-DjwiTvPRG\";}'
+    'PHPSESSID' => '62mnpvkatskffopr2kupfodab5'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'babamiq'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yii2'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:39.0) Gecko/20100101 Firefox/39.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=6400d7750d0898f3ed9791b4036325433b9b05e4876062aa3a32d7643c5bb7a8a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22DUe4MhtpujSjLTJdfnL5nf-DjwiTvPRG%22%3B%7D; PHPSESSID=62mnpvkatskffopr2kupfodab5'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Users\\Public\\Apache24\\modules\\php5.6.11;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\PC Connectivity Solution\\;C:\\Program Files\\Common Files\\Microsoft Shared\\Windows Live;C:\\Program Files (x86)\\Common Files\\Microsoft Shared\\Windows Live;C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\Common Files\\Acronis\\SnapAPI\\;C:\\Users\\Public\\Apache24\\bin;C:\\Program Files\\MySQL\\MySQL Server 5.5\\bin;C:\\Program Files\\Common Files\\Autodesk Shared\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\QuickTime\\QTSystem\\;C:\\Program Files (x86)\\Autodesk\\Backburner\\;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Win64) OpenSSL/1.0.1p PHP/5.6.11RC1'
+    'SERVER_NAME' => 'yii2'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/Public/Apache24/htdocs/yii2/yii2-app-basic/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/Public/Apache24/htdocs/yii2/yii2-app-basic/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Users/Public/Apache24/htdocs/yii2/yii2-app-basic/web/index.php'
+    'REMOTE_PORT' => '56474'
+    'REDIRECT_URL' => '/user/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/user/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1437241991.702
+    'REQUEST_TIME' => 1437241991
+]
+2015-07-18 20:54:59 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\web\Request.php:187
+Stack trace:
+#0 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\web\Application.php(75): yii\web\Request->resolve()
+#1 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\web\index.php(12): yii\base\Application->run()
+#3 {main}
+2015-07-18 20:54:59 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '6400d7750d0898f3ed9791b4036325433b9b05e4876062aa3a32d7643c5bb7a8a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"DUe4MhtpujSjLTJdfnL5nf-DjwiTvPRG\";}'
+    'PHPSESSID' => '62mnpvkatskffopr2kupfodab5'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'babamiq'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yii2'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:39.0) Gecko/20100101 Firefox/39.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=6400d7750d0898f3ed9791b4036325433b9b05e4876062aa3a32d7643c5bb7a8a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22DUe4MhtpujSjLTJdfnL5nf-DjwiTvPRG%22%3B%7D; PHPSESSID=62mnpvkatskffopr2kupfodab5'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Users\\Public\\Apache24\\modules\\php5.6.11;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\PC Connectivity Solution\\;C:\\Program Files\\Common Files\\Microsoft Shared\\Windows Live;C:\\Program Files (x86)\\Common Files\\Microsoft Shared\\Windows Live;C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\Common Files\\Acronis\\SnapAPI\\;C:\\Users\\Public\\Apache24\\bin;C:\\Program Files\\MySQL\\MySQL Server 5.5\\bin;C:\\Program Files\\Common Files\\Autodesk Shared\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\QuickTime\\QTSystem\\;C:\\Program Files (x86)\\Autodesk\\Backburner\\;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Win64) OpenSSL/1.0.1p PHP/5.6.11RC1'
+    'SERVER_NAME' => 'yii2'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/Public/Apache24/htdocs/yii2/yii2-app-basic/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/Public/Apache24/htdocs/yii2/yii2-app-basic/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Users/Public/Apache24/htdocs/yii2/yii2-app-basic/web/index.php'
+    'REMOTE_PORT' => '56547'
+    'REDIRECT_URL' => '/user/user/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/user/user/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1437242099.175
+    'REQUEST_TIME' => 1437242099
+]
+2015-07-18 20:56:04 [127.0.0.1][-][-][error][ReflectionException] exception 'ReflectionException' with message 'Class app\modules\user\Module does not exist' in C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\di\Container.php:415
+Stack trace:
+#0 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\di\Container.php(415): ReflectionClass->__construct('app\\modules\\use...')
+#1 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\di\Container.php(358): yii\di\Container->getDependencies('app\\modules\\use...')
+#2 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\di\Container.php(151): yii\di\Container->build('app\\modules\\use...', Array, Array)
+#3 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\BaseYii.php(344): yii\di\Container->get('app\\modules\\use...', Array, Array)
+#4 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\Module.php(354): yii\BaseYii::createObject(Array, Array)
+#5 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\Module.php(511): yii\base\Module->getModule('user')
+#6 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\Module.php(449): yii\base\Module->createController('user/index')
+#7 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('user/index', Array)
+#8 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\web\index.php(12): yii\base\Application->run()
+#10 {main}
+2015-07-18 20:56:04 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '6400d7750d0898f3ed9791b4036325433b9b05e4876062aa3a32d7643c5bb7a8a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"DUe4MhtpujSjLTJdfnL5nf-DjwiTvPRG\";}'
+    'PHPSESSID' => '62mnpvkatskffopr2kupfodab5'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yii2'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:39.0) Gecko/20100101 Firefox/39.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=6400d7750d0898f3ed9791b4036325433b9b05e4876062aa3a32d7643c5bb7a8a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22DUe4MhtpujSjLTJdfnL5nf-DjwiTvPRG%22%3B%7D; PHPSESSID=62mnpvkatskffopr2kupfodab5'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Users\\Public\\Apache24\\modules\\php5.6.11;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\PC Connectivity Solution\\;C:\\Program Files\\Common Files\\Microsoft Shared\\Windows Live;C:\\Program Files (x86)\\Common Files\\Microsoft Shared\\Windows Live;C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\Common Files\\Acronis\\SnapAPI\\;C:\\Users\\Public\\Apache24\\bin;C:\\Program Files\\MySQL\\MySQL Server 5.5\\bin;C:\\Program Files\\Common Files\\Autodesk Shared\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\QuickTime\\QTSystem\\;C:\\Program Files (x86)\\Autodesk\\Backburner\\;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Win64) OpenSSL/1.0.1p PHP/5.6.11RC1'
+    'SERVER_NAME' => 'yii2'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/Public/Apache24/htdocs/yii2/yii2-app-basic/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/Public/Apache24/htdocs/yii2/yii2-app-basic/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Users/Public/Apache24/htdocs/yii2/yii2-app-basic/web/index.php'
+    'REMOTE_PORT' => '56585'
+    'REDIRECT_URL' => '/user.html'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/user.html'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1437242164.044
+    'REQUEST_TIME' => 1437242164
+]
+2015-07-18 20:57:40 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "user/index".' in C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('user/index', Array)
+#1 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2015-07-18 20:57:39 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '6400d7750d0898f3ed9791b4036325433b9b05e4876062aa3a32d7643c5bb7a8a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"DUe4MhtpujSjLTJdfnL5nf-DjwiTvPRG\";}'
+    'PHPSESSID' => '62mnpvkatskffopr2kupfodab5'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'babamiq'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yii2'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:39.0) Gecko/20100101 Firefox/39.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=6400d7750d0898f3ed9791b4036325433b9b05e4876062aa3a32d7643c5bb7a8a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22DUe4MhtpujSjLTJdfnL5nf-DjwiTvPRG%22%3B%7D; PHPSESSID=62mnpvkatskffopr2kupfodab5'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'PATH' => 'C:\\Users\\Public\\Apache24\\modules\\php5.6.11;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\PC Connectivity Solution\\;C:\\Program Files\\Common Files\\Microsoft Shared\\Windows Live;C:\\Program Files (x86)\\Common Files\\Microsoft Shared\\Windows Live;C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\Common Files\\Acronis\\SnapAPI\\;C:\\Users\\Public\\Apache24\\bin;C:\\Program Files\\MySQL\\MySQL Server 5.5\\bin;C:\\Program Files\\Common Files\\Autodesk Shared\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\QuickTime\\QTSystem\\;C:\\Program Files (x86)\\Autodesk\\Backburner\\;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Win64) OpenSSL/1.0.1p PHP/5.6.11RC1'
+    'SERVER_NAME' => 'yii2'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/Public/Apache24/htdocs/yii2/yii2-app-basic/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/Public/Apache24/htdocs/yii2/yii2-app-basic/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Users/Public/Apache24/htdocs/yii2/yii2-app-basic/web/index.php'
+    'REMOTE_PORT' => '56657'
+    'REDIRECT_URL' => '/user.html'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/user.html'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1437242259.873
+    'REQUEST_TIME' => 1437242259
+]
+2015-07-18 20:58:27 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: user/default/Signup' in C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\Controller.php:122
+Stack trace:
+#0 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('Signup', Array)
+#1 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('user/default/Si...', Array)
+#2 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2015-07-18 20:58:27 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '6400d7750d0898f3ed9791b4036325433b9b05e4876062aa3a32d7643c5bb7a8a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"DUe4MhtpujSjLTJdfnL5nf-DjwiTvPRG\";}'
+    'PHPSESSID' => '62mnpvkatskffopr2kupfodab5'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'babamiq'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yii2'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:39.0) Gecko/20100101 Firefox/39.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=6400d7750d0898f3ed9791b4036325433b9b05e4876062aa3a32d7643c5bb7a8a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22DUe4MhtpujSjLTJdfnL5nf-DjwiTvPRG%22%3B%7D; PHPSESSID=62mnpvkatskffopr2kupfodab5'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Users\\Public\\Apache24\\modules\\php5.6.11;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\PC Connectivity Solution\\;C:\\Program Files\\Common Files\\Microsoft Shared\\Windows Live;C:\\Program Files (x86)\\Common Files\\Microsoft Shared\\Windows Live;C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\Common Files\\Acronis\\SnapAPI\\;C:\\Users\\Public\\Apache24\\bin;C:\\Program Files\\MySQL\\MySQL Server 5.5\\bin;C:\\Program Files\\Common Files\\Autodesk Shared\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\QuickTime\\QTSystem\\;C:\\Program Files (x86)\\Autodesk\\Backburner\\;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Win64) OpenSSL/1.0.1p PHP/5.6.11RC1'
+    'SERVER_NAME' => 'yii2'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/Public/Apache24/htdocs/yii2/yii2-app-basic/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/Public/Apache24/htdocs/yii2/yii2-app-basic/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Users/Public/Apache24/htdocs/yii2/yii2-app-basic/web/index.php'
+    'REMOTE_PORT' => '56731'
+    'REDIRECT_URL' => '/user/default/Signup.html'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/user/default/Signup.html'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1437242307.781
+    'REQUEST_TIME' => 1437242307
+]
+2015-07-18 20:58:33 [127.0.0.1][-][62mnpvkatskffopr2kupfodab5][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\modules\user\models\ActiveRecord' not found' in C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\modules\user\models\User.php:24
+Stack trace:
+#0 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\Model.php(24): yii\BaseYii::autoload()
+#1 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\Model.php(24): ::spl_autoload_call()
+#2 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\Model.php(436): app\modules\user\models\SignupForm->rules()
+#3 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\Model.php(404): yii\base\Model->createValidators()
+#4 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\Model.php(184): yii\base\Model->getValidators()
+#5 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\Model.php(767): yii\base\Model->scenarios()
+#6 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\widgets\ActiveField.php(688): yii\base\Model->activeAttributes()
+#7 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\widgets\ActiveField.php(210): yii\widgets\ActiveField->getClientOptions()
+#8 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\widgets\ActiveField.php(200): yii\widgets\ActiveField->begin()
+#9 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2-bootstrap\ActiveField.php(188): yii\widgets\ActiveField->render()
+#10 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\widgets\ActiveField.php(156): yii\bootstrap\ActiveField->render()
+#11 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\View.php(21): yii\widgets\ActiveField->__toString()
+#12 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\View.php(325): ::unknown()
+#13 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile()
+#14 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile()
+#15 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\Controller.php(371): yii\base\View->render()
+#16 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\modules\user\controllers\DefaultController.php(92): yii\base\Controller->render()
+#17 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\InlineAction.php(55): app\modules\user\controllers\DefaultController->actionSignup()
+#18 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#19 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams()
+#20 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction()
+#21 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction()
+#22 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest()
+#23 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\web\index.php(12): yii\base\Application->run()
+#24 {main}
+2015-07-18 20:58:33 [127.0.0.1][-][62mnpvkatskffopr2kupfodab5][info][application] $_COOKIE = [
+    '_csrf' => '6400d7750d0898f3ed9791b4036325433b9b05e4876062aa3a32d7643c5bb7a8a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"DUe4MhtpujSjLTJdfnL5nf-DjwiTvPRG\";}'
+    'PHPSESSID' => '62mnpvkatskffopr2kupfodab5'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'babamiq'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yii2'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:39.0) Gecko/20100101 Firefox/39.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=6400d7750d0898f3ed9791b4036325433b9b05e4876062aa3a32d7643c5bb7a8a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22DUe4MhtpujSjLTJdfnL5nf-DjwiTvPRG%22%3B%7D; PHPSESSID=62mnpvkatskffopr2kupfodab5'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Users\\Public\\Apache24\\modules\\php5.6.11;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\PC Connectivity Solution\\;C:\\Program Files\\Common Files\\Microsoft Shared\\Windows Live;C:\\Program Files (x86)\\Common Files\\Microsoft Shared\\Windows Live;C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\Common Files\\Acronis\\SnapAPI\\;C:\\Users\\Public\\Apache24\\bin;C:\\Program Files\\MySQL\\MySQL Server 5.5\\bin;C:\\Program Files\\Common Files\\Autodesk Shared\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\QuickTime\\QTSystem\\;C:\\Program Files (x86)\\Autodesk\\Backburner\\;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Win64) OpenSSL/1.0.1p PHP/5.6.11RC1'
+    'SERVER_NAME' => 'yii2'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/Public/Apache24/htdocs/yii2/yii2-app-basic/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/Public/Apache24/htdocs/yii2/yii2-app-basic/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Users/Public/Apache24/htdocs/yii2/yii2-app-basic/web/index.php'
+    'REMOTE_PORT' => '56739'
+    'REDIRECT_URL' => '/user/default/signup.html'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/user/default/signup.html'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1437242313.796
+    'REQUEST_TIME' => 1437242313
+]
+2015-07-18 21:01:50 [127.0.0.1][-][-][error][yii\base\InvalidParamException] exception 'yii\base\InvalidParamException' with message 'The view file does not exist: C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic/mail\confirmEmail.php' in C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\View.php:226
+Stack trace:
+#0 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\\Users\\Public...', Array, Object(yii\swiftmailer\Mailer))
+#1 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\mail\BaseMailer.php(299): yii\base\View->render('confirmEmail', Array, Object(yii\swiftmailer\Mailer))
+#2 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\mail\BaseMailer.php(192): yii\mail\BaseMailer->render('confirmEmail', Array, 'layouts/html')
+#3 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\modules\user\models\SignupForm.php(63): yii\mail\BaseMailer->compose('confirmEmail', Array)
+#4 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\modules\user\controllers\DefaultController.php(84): app\modules\user\models\SignupForm->signup()
+#5 [internal function]: app\modules\user\controllers\DefaultController->actionSignup()
+#6 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#7 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#8 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('signup', Array)
+#9 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('user/default/si...', Array)
+#10 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\web\index.php(12): yii\base\Application->run()
+#12 {main}
+2015-07-18 21:01:49 [127.0.0.1][-][-][info][application] $_POST = [
+    '_csrf' => 'dVMxLUc5NjgxBlQZClFCSAA5YkcLbXxcEz19GClfG3wfJFh5MWlkfw=='
+    'SignupForm' => [
+        'username' => 'Svid'
+        'email' => 'Svid_off@mail.ru'
+        'password' => 'svid_off'
+        'verifyCode' => 'zpfdmu'
+    ]
+    'signup-button' => ''
+]
+
+$_COOKIE = [
+    '_csrf' => '6400d7750d0898f3ed9791b4036325433b9b05e4876062aa3a32d7643c5bb7a8a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"DUe4MhtpujSjLTJdfnL5nf-DjwiTvPRG\";}'
+    'PHPSESSID' => '62mnpvkatskffopr2kupfodab5'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'babamiq'
+    '__captcha/site/captchacount' => 1
+    '__captcha/user/default/captcha' => 'cedilow'
+    '__captcha/user/default/captchacount' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yii2'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:39.0) Gecko/20100101 Firefox/39.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://yii2/user/default/signup.html'
+    'HTTP_COOKIE' => '_csrf=6400d7750d0898f3ed9791b4036325433b9b05e4876062aa3a32d7643c5bb7a8a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22DUe4MhtpujSjLTJdfnL5nf-DjwiTvPRG%22%3B%7D; PHPSESSID=62mnpvkatskffopr2kupfodab5'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '220'
+    'PATH' => 'C:\\Users\\Public\\Apache24\\modules\\php5.6.11;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\PC Connectivity Solution\\;C:\\Program Files\\Common Files\\Microsoft Shared\\Windows Live;C:\\Program Files (x86)\\Common Files\\Microsoft Shared\\Windows Live;C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\Common Files\\Acronis\\SnapAPI\\;C:\\Users\\Public\\Apache24\\bin;C:\\Program Files\\MySQL\\MySQL Server 5.5\\bin;C:\\Program Files\\Common Files\\Autodesk Shared\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\QuickTime\\QTSystem\\;C:\\Program Files (x86)\\Autodesk\\Backburner\\;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Win64) OpenSSL/1.0.1p PHP/5.6.11RC1'
+    'SERVER_NAME' => 'yii2'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/Public/Apache24/htdocs/yii2/yii2-app-basic/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/Public/Apache24/htdocs/yii2/yii2-app-basic/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Users/Public/Apache24/htdocs/yii2/yii2-app-basic/web/index.php'
+    'REMOTE_PORT' => '56958'
+    'REDIRECT_URL' => '/user/default/signup.html'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/user/default/signup.html'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1437242509.665
+    'REQUEST_TIME' => 1437242509
+]
+2015-07-18 21:04:46 [127.0.0.1][-][-][error][yii\base\InvalidParamException] exception 'yii\base\InvalidParamException' with message 'The view file does not exist: C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic/mail\confirmEmail.php' in C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\View.php:226
+Stack trace:
+#0 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\\Users\\Public...', Array, Object(yii\swiftmailer\Mailer))
+#1 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\mail\BaseMailer.php(299): yii\base\View->render('confirmEmail', Array, Object(yii\swiftmailer\Mailer))
+#2 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\mail\BaseMailer.php(192): yii\mail\BaseMailer->render('confirmEmail', Array, 'layouts/html')
+#3 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\modules\user\models\SignupForm.php(63): yii\mail\BaseMailer->compose('confirmEmail', Array)
+#4 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\modules\user\controllers\DefaultController.php(84): app\modules\user\models\SignupForm->signup()
+#5 [internal function]: app\modules\user\controllers\DefaultController->actionSignup()
+#6 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#7 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#8 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('signup', Array)
+#9 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('user/default/si...', Array)
+#10 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\web\index.php(12): yii\base\Application->run()
+#12 {main}
+2015-07-18 21:04:45 [127.0.0.1][-][-][info][application] $_POST = [
+    '_csrf' => 'bHJ3VmVER0koJxJiKCwzORkYJDwpEA0tChw7Ywsiag0GBR4CExQVDg=='
+    'SignupForm' => [
+        'username' => 'Svid2'
+        'email' => 'Svid_off2@mail.ru'
+        'password' => 'svid_off'
+        'verifyCode' => 'nxneme'
+    ]
+    'signup-button' => ''
+]
+
+$_COOKIE = [
+    '_csrf' => '6400d7750d0898f3ed9791b4036325433b9b05e4876062aa3a32d7643c5bb7a8a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"DUe4MhtpujSjLTJdfnL5nf-DjwiTvPRG\";}'
+    'PHPSESSID' => '62mnpvkatskffopr2kupfodab5'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'babamiq'
+    '__captcha/site/captchacount' => 1
+    '__captcha/user/default/captcha' => 'remabi'
+    '__captcha/user/default/captchacount' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yii2'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:39.0) Gecko/20100101 Firefox/39.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://yii2/user/default/signup.html'
+    'HTTP_COOKIE' => '_csrf=6400d7750d0898f3ed9791b4036325433b9b05e4876062aa3a32d7643c5bb7a8a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22DUe4MhtpujSjLTJdfnL5nf-DjwiTvPRG%22%3B%7D; PHPSESSID=62mnpvkatskffopr2kupfodab5'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '222'
+    'PATH' => 'C:\\Users\\Public\\Apache24\\modules\\php5.6.11;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\PC Connectivity Solution\\;C:\\Program Files\\Common Files\\Microsoft Shared\\Windows Live;C:\\Program Files (x86)\\Common Files\\Microsoft Shared\\Windows Live;C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\Common Files\\Acronis\\SnapAPI\\;C:\\Users\\Public\\Apache24\\bin;C:\\Program Files\\MySQL\\MySQL Server 5.5\\bin;C:\\Program Files\\Common Files\\Autodesk Shared\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\QuickTime\\QTSystem\\;C:\\Program Files (x86)\\Autodesk\\Backburner\\;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Win64) OpenSSL/1.0.1p PHP/5.6.11RC1'
+    'SERVER_NAME' => 'yii2'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/Public/Apache24/htdocs/yii2/yii2-app-basic/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/Public/Apache24/htdocs/yii2/yii2-app-basic/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Users/Public/Apache24/htdocs/yii2/yii2-app-basic/web/index.php'
+    'REMOTE_PORT' => '57056'
+    'REDIRECT_URL' => '/user/default/signup.html'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/user/default/signup.html'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1437242685.713
+    'REQUEST_TIME' => 1437242685
+]

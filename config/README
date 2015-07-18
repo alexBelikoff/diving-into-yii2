@@ -1,0 +1,68 @@
+Файлы в .gitignore:
+/config:
+
+console-local.php
+common-local.php
+params-local.php
+
+console-local.php
+<?php
+return [
+    'components' => [
+        'log' => [
+            'targets' => [
+                [
+                    'class' => 'yii\log\FileTarget',
+                    'levels' => ['error'],
+                    'logFile' => '@app/runtime/logs/console-error.log'
+                ],
+                [
+                    'class' => 'yii\log\FileTarget',
+                    'levels' => ['warning'],
+                    'logFile' => '@app/runtime/logs/console-warning.log'
+                ],
+            ],
+        ],
+    ],
+];
+
+common-local.php
+<?php
+
+return [
+    'components' => [
+        'db' => [
+            'dsn' => 'mysql:host=localhost;dbname=yii2basic',
+            'username' => 'root',
+            'password' => 'root',
+            'tablePrefix' => 'keys_',
+        ],
+        'mailer' => [
+            'useFileTransport' => true,
+        ],
+        'cache' => [
+            'class' => 'yii\caching\FileCache',
+        ],
+    ],
+];
+
+params-local.php
+<?php
+
+return [
+    'adminEmail' => 'Alexey@beluha.pro',
+    'supportEmail' => 'Alexey@beluha.pro',
+];
+
+/web
+.htaccess
+Order Allow,Deny
+Allow from all
+
+AddDefaultCharset utf-8
+
+RewriteEngine on
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . index.php

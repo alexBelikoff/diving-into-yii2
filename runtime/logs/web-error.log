@@ -1,0 +1,1660 @@
+2015-07-18 21:16:06 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "site/login/index".' in C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('site/login/inde...', Array)
+#1 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Страница не найдена.' in C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2015-07-18 21:16:06 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '179e303dd6e882ac564b108a914f3e2c5f79e988c09dc462bba9f8f29f9a0e44a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"l2Cs1_xoMOCFnvs2A59WLmPTkTWiDaHk\";}'
+    'PHPSESSID' => '62mnpvkatskffopr2kupfodab5'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'babamiq'
+    '__captcha/site/captchacount' => 1
+    '__captcha/user/default/captcha' => 'remabi'
+    '__captcha/user/default/captchacount' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yii2'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:39.0) Gecko/20100101 Firefox/39.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://yii2/'
+    'HTTP_COOKIE' => '_csrf=179e303dd6e882ac564b108a914f3e2c5f79e988c09dc462bba9f8f29f9a0e44a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22l2Cs1_xoMOCFnvs2A59WLmPTkTWiDaHk%22%3B%7D; PHPSESSID=62mnpvkatskffopr2kupfodab5'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Users\\Public\\Apache24\\modules\\php5.6.11;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\PC Connectivity Solution\\;C:\\Program Files\\Common Files\\Microsoft Shared\\Windows Live;C:\\Program Files (x86)\\Common Files\\Microsoft Shared\\Windows Live;C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\Common Files\\Acronis\\SnapAPI\\;C:\\Users\\Public\\Apache24\\bin;C:\\Program Files\\MySQL\\MySQL Server 5.5\\bin;C:\\Program Files\\Common Files\\Autodesk Shared\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\QuickTime\\QTSystem\\;C:\\Program Files (x86)\\Autodesk\\Backburner\\;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Win64) OpenSSL/1.0.1p PHP/5.6.11RC1'
+    'SERVER_NAME' => 'yii2'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/Public/Apache24/htdocs/yii2/yii2-app-basic/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/Public/Apache24/htdocs/yii2/yii2-app-basic/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Users/Public/Apache24/htdocs/yii2/yii2-app-basic/web/index.php'
+    'REMOTE_PORT' => '57287'
+    'REDIRECT_URL' => '/site/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/site/login'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1437243366.381
+    'REQUEST_TIME' => 1437243366
+]
+2015-07-18 21:16:36 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: user/default/' in C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\Controller.php:122
+Stack trace:
+#0 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('', Array)
+#1 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('user/', Array)
+#2 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\web\index.php(17): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Страница не найдена.' in C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2015-07-18 21:16:36 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '179e303dd6e882ac564b108a914f3e2c5f79e988c09dc462bba9f8f29f9a0e44a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"l2Cs1_xoMOCFnvs2A59WLmPTkTWiDaHk\";}'
+    'PHPSESSID' => '62mnpvkatskffopr2kupfodab5'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'babamiq'
+    '__captcha/site/captchacount' => 1
+    '__captcha/user/default/captcha' => 'remabi'
+    '__captcha/user/default/captchacount' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yii2'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:39.0) Gecko/20100101 Firefox/39.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=179e303dd6e882ac564b108a914f3e2c5f79e988c09dc462bba9f8f29f9a0e44a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22l2Cs1_xoMOCFnvs2A59WLmPTkTWiDaHk%22%3B%7D; PHPSESSID=62mnpvkatskffopr2kupfodab5'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Users\\Public\\Apache24\\modules\\php5.6.11;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\PC Connectivity Solution\\;C:\\Program Files\\Common Files\\Microsoft Shared\\Windows Live;C:\\Program Files (x86)\\Common Files\\Microsoft Shared\\Windows Live;C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\Common Files\\Acronis\\SnapAPI\\;C:\\Users\\Public\\Apache24\\bin;C:\\Program Files\\MySQL\\MySQL Server 5.5\\bin;C:\\Program Files\\Common Files\\Autodesk Shared\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\QuickTime\\QTSystem\\;C:\\Program Files (x86)\\Autodesk\\Backburner\\;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Win64) OpenSSL/1.0.1p PHP/5.6.11RC1'
+    'SERVER_NAME' => 'yii2'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/Public/Apache24/htdocs/yii2/yii2-app-basic/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/Public/Apache24/htdocs/yii2/yii2-app-basic/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Users/Public/Apache24/htdocs/yii2/yii2-app-basic/web/index.php'
+    'REMOTE_PORT' => '57297'
+    'REDIRECT_URL' => '/user/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/user/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1437243396.071
+    'REQUEST_TIME' => 1437243396
+]
+2015-07-18 21:16:53 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: user/default/signup.html' in C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\Controller.php:122
+Stack trace:
+#0 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('signup.html', Array)
+#1 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('user/default/si...', Array)
+#2 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\web\index.php(17): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Страница не найдена.' in C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2015-07-18 21:16:53 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '179e303dd6e882ac564b108a914f3e2c5f79e988c09dc462bba9f8f29f9a0e44a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"l2Cs1_xoMOCFnvs2A59WLmPTkTWiDaHk\";}'
+    'PHPSESSID' => '62mnpvkatskffopr2kupfodab5'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'babamiq'
+    '__captcha/site/captchacount' => 1
+    '__captcha/user/default/captcha' => 'remabi'
+    '__captcha/user/default/captchacount' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yii2'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:39.0) Gecko/20100101 Firefox/39.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=179e303dd6e882ac564b108a914f3e2c5f79e988c09dc462bba9f8f29f9a0e44a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22l2Cs1_xoMOCFnvs2A59WLmPTkTWiDaHk%22%3B%7D; PHPSESSID=62mnpvkatskffopr2kupfodab5'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Users\\Public\\Apache24\\modules\\php5.6.11;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\PC Connectivity Solution\\;C:\\Program Files\\Common Files\\Microsoft Shared\\Windows Live;C:\\Program Files (x86)\\Common Files\\Microsoft Shared\\Windows Live;C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\Common Files\\Acronis\\SnapAPI\\;C:\\Users\\Public\\Apache24\\bin;C:\\Program Files\\MySQL\\MySQL Server 5.5\\bin;C:\\Program Files\\Common Files\\Autodesk Shared\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\QuickTime\\QTSystem\\;C:\\Program Files (x86)\\Autodesk\\Backburner\\;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Win64) OpenSSL/1.0.1p PHP/5.6.11RC1'
+    'SERVER_NAME' => 'yii2'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/Public/Apache24/htdocs/yii2/yii2-app-basic/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/Public/Apache24/htdocs/yii2/yii2-app-basic/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Users/Public/Apache24/htdocs/yii2/yii2-app-basic/web/index.php'
+    'REMOTE_PORT' => '57304'
+    'REDIRECT_URL' => '/user/default/signup.html'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/user/default/signup.html'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1437243412.994
+    'REQUEST_TIME' => 1437243412
+]
+2015-07-18 21:16:57 [127.0.0.1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'app' does not exist: C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic/messages/ru-RU/app.php Fallback file does not exist as well: C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic/messages/ru/app.php
+    in C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\modules\user\views\default\signup.php:10
+    in C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\modules\user\controllers\DefaultController.php:92
+2015-07-18 21:16:57 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '179e303dd6e882ac564b108a914f3e2c5f79e988c09dc462bba9f8f29f9a0e44a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"l2Cs1_xoMOCFnvs2A59WLmPTkTWiDaHk\";}'
+    'PHPSESSID' => '62mnpvkatskffopr2kupfodab5'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'babamiq'
+    '__captcha/site/captchacount' => 1
+    '__captcha/user/default/captcha' => 'remabi'
+    '__captcha/user/default/captchacount' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yii2'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:39.0) Gecko/20100101 Firefox/39.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=179e303dd6e882ac564b108a914f3e2c5f79e988c09dc462bba9f8f29f9a0e44a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22l2Cs1_xoMOCFnvs2A59WLmPTkTWiDaHk%22%3B%7D; PHPSESSID=62mnpvkatskffopr2kupfodab5'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Users\\Public\\Apache24\\modules\\php5.6.11;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\PC Connectivity Solution\\;C:\\Program Files\\Common Files\\Microsoft Shared\\Windows Live;C:\\Program Files (x86)\\Common Files\\Microsoft Shared\\Windows Live;C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\Common Files\\Acronis\\SnapAPI\\;C:\\Users\\Public\\Apache24\\bin;C:\\Program Files\\MySQL\\MySQL Server 5.5\\bin;C:\\Program Files\\Common Files\\Autodesk Shared\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\QuickTime\\QTSystem\\;C:\\Program Files (x86)\\Autodesk\\Backburner\\;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Win64) OpenSSL/1.0.1p PHP/5.6.11RC1'
+    'SERVER_NAME' => 'yii2'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/Public/Apache24/htdocs/yii2/yii2-app-basic/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/Public/Apache24/htdocs/yii2/yii2-app-basic/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Users/Public/Apache24/htdocs/yii2/yii2-app-basic/web/index.php'
+    'REMOTE_PORT' => '57304'
+    'REDIRECT_URL' => '/user/default/signup'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/user/default/signup'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1437243417.428
+    'REQUEST_TIME' => 1437243417
+]
+2015-07-18 21:17:13 [127.0.0.1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'app' does not exist: C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic/messages/ru-RU/app.php Fallback file does not exist as well: C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic/messages/ru/app.php
+    in C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\modules\user\views\default\signup.php:10
+    in C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\modules\user\controllers\DefaultController.php:92
+2015-07-18 21:17:13 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '179e303dd6e882ac564b108a914f3e2c5f79e988c09dc462bba9f8f29f9a0e44a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"l2Cs1_xoMOCFnvs2A59WLmPTkTWiDaHk\";}'
+    'PHPSESSID' => '62mnpvkatskffopr2kupfodab5'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'babamiq'
+    '__captcha/site/captchacount' => 1
+    '__captcha/user/default/captcha' => 'remabi'
+    '__captcha/user/default/captchacount' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yii2'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:39.0) Gecko/20100101 Firefox/39.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=179e303dd6e882ac564b108a914f3e2c5f79e988c09dc462bba9f8f29f9a0e44a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22l2Cs1_xoMOCFnvs2A59WLmPTkTWiDaHk%22%3B%7D; PHPSESSID=62mnpvkatskffopr2kupfodab5'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Users\\Public\\Apache24\\modules\\php5.6.11;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\PC Connectivity Solution\\;C:\\Program Files\\Common Files\\Microsoft Shared\\Windows Live;C:\\Program Files (x86)\\Common Files\\Microsoft Shared\\Windows Live;C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\Common Files\\Acronis\\SnapAPI\\;C:\\Users\\Public\\Apache24\\bin;C:\\Program Files\\MySQL\\MySQL Server 5.5\\bin;C:\\Program Files\\Common Files\\Autodesk Shared\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\QuickTime\\QTSystem\\;C:\\Program Files (x86)\\Autodesk\\Backburner\\;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Win64) OpenSSL/1.0.1p PHP/5.6.11RC1'
+    'SERVER_NAME' => 'yii2'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/Public/Apache24/htdocs/yii2/yii2-app-basic/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/Public/Apache24/htdocs/yii2/yii2-app-basic/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Users/Public/Apache24/htdocs/yii2/yii2-app-basic/web/index.php'
+    'REMOTE_PORT' => '57313'
+    'REDIRECT_URL' => '/user/default/signup'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/user/default/signup'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1437243433.299
+    'REQUEST_TIME' => 1437243433
+]
+2015-07-18 21:17:20 [127.0.0.1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'app' does not exist: C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic/messages/ru-RU/app.php Fallback file does not exist as well: C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic/messages/ru/app.php
+    in C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\modules\user\views\default\signup.php:10
+    in C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\modules\user\controllers\DefaultController.php:92
+2015-07-18 21:17:20 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '179e303dd6e882ac564b108a914f3e2c5f79e988c09dc462bba9f8f29f9a0e44a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"l2Cs1_xoMOCFnvs2A59WLmPTkTWiDaHk\";}'
+    'PHPSESSID' => '62mnpvkatskffopr2kupfodab5'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'babamiq'
+    '__captcha/site/captchacount' => 1
+    '__captcha/user/default/captcha' => 'remabi'
+    '__captcha/user/default/captchacount' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yii2'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:39.0) Gecko/20100101 Firefox/39.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=179e303dd6e882ac564b108a914f3e2c5f79e988c09dc462bba9f8f29f9a0e44a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22l2Cs1_xoMOCFnvs2A59WLmPTkTWiDaHk%22%3B%7D; PHPSESSID=62mnpvkatskffopr2kupfodab5'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Users\\Public\\Apache24\\modules\\php5.6.11;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\PC Connectivity Solution\\;C:\\Program Files\\Common Files\\Microsoft Shared\\Windows Live;C:\\Program Files (x86)\\Common Files\\Microsoft Shared\\Windows Live;C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\Common Files\\Acronis\\SnapAPI\\;C:\\Users\\Public\\Apache24\\bin;C:\\Program Files\\MySQL\\MySQL Server 5.5\\bin;C:\\Program Files\\Common Files\\Autodesk Shared\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\QuickTime\\QTSystem\\;C:\\Program Files (x86)\\Autodesk\\Backburner\\;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Win64) OpenSSL/1.0.1p PHP/5.6.11RC1'
+    'SERVER_NAME' => 'yii2'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/Public/Apache24/htdocs/yii2/yii2-app-basic/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/Public/Apache24/htdocs/yii2/yii2-app-basic/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Users/Public/Apache24/htdocs/yii2/yii2-app-basic/web/index.php'
+    'REMOTE_PORT' => '57315'
+    'REDIRECT_URL' => '/user/default/signup'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/user/default/signup'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1437243440.218
+    'REQUEST_TIME' => 1437243440
+]
+2015-07-18 21:18:02 [127.0.0.1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'app' does not exist: C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic/messages/ru-RU/app.php Fallback file does not exist as well: C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic/messages/ru/app.php
+    in C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\modules\user\models\SignupForm.php:24
+    in C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\modules\user\controllers\DefaultController.php:83
+2015-07-18 21:18:03 [127.0.0.1][-][-][error][yii\base\InvalidParamException] exception 'yii\base\InvalidParamException' with message 'The view file does not exist: C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic/mail\confirmEmail.php' in C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\View.php:226
+Stack trace:
+#0 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\\Users\\Public...', Array, Object(yii\swiftmailer\Mailer))
+#1 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\mail\BaseMailer.php(299): yii\base\View->render('confirmEmail', Array, Object(yii\swiftmailer\Mailer))
+#2 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\mail\BaseMailer.php(192): yii\mail\BaseMailer->render('confirmEmail', Array, 'layouts/html')
+#3 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\modules\user\models\SignupForm.php(63): yii\mail\BaseMailer->compose('confirmEmail', Array)
+#4 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\modules\user\controllers\DefaultController.php(84): app\modules\user\models\SignupForm->signup()
+#5 [internal function]: app\modules\user\controllers\DefaultController->actionSignup()
+#6 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#7 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#8 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('signup', Array)
+#9 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('user/default/si...', Array)
+#10 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\web\index.php(17): yii\base\Application->run()
+#12 {main}
+2015-07-18 21:18:02 [127.0.0.1][-][-][info][application] $_POST = [
+    '_csrf' => 'YUVxVHFKVWcNdzInQBUtCCwKMhIfPCZVIHBIAz0nBTMKESY9NSsdDA=='
+    'SignupForm' => [
+        'username' => 'Svid3'
+        'email' => 'Svid_off3@mail.ru'
+        'password' => 'svid_off'
+        'verifyCode' => 'oiyamvf'
+    ]
+    'signup-button' => ''
+]
+
+$_COOKIE = [
+    '_csrf' => '179e303dd6e882ac564b108a914f3e2c5f79e988c09dc462bba9f8f29f9a0e44a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"l2Cs1_xoMOCFnvs2A59WLmPTkTWiDaHk\";}'
+    'PHPSESSID' => '62mnpvkatskffopr2kupfodab5'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'babamiq'
+    '__captcha/site/captchacount' => 1
+    '__captcha/user/default/captcha' => 'gxminu'
+    '__captcha/user/default/captchacount' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yii2'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:39.0) Gecko/20100101 Firefox/39.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://yii2/user/default/signup'
+    'HTTP_COOKIE' => '_csrf=179e303dd6e882ac564b108a914f3e2c5f79e988c09dc462bba9f8f29f9a0e44a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22l2Cs1_xoMOCFnvs2A59WLmPTkTWiDaHk%22%3B%7D; PHPSESSID=62mnpvkatskffopr2kupfodab5'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '223'
+    'PATH' => 'C:\\Users\\Public\\Apache24\\modules\\php5.6.11;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\PC Connectivity Solution\\;C:\\Program Files\\Common Files\\Microsoft Shared\\Windows Live;C:\\Program Files (x86)\\Common Files\\Microsoft Shared\\Windows Live;C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\Common Files\\Acronis\\SnapAPI\\;C:\\Users\\Public\\Apache24\\bin;C:\\Program Files\\MySQL\\MySQL Server 5.5\\bin;C:\\Program Files\\Common Files\\Autodesk Shared\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\QuickTime\\QTSystem\\;C:\\Program Files (x86)\\Autodesk\\Backburner\\;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Win64) OpenSSL/1.0.1p PHP/5.6.11RC1'
+    'SERVER_NAME' => 'yii2'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/Public/Apache24/htdocs/yii2/yii2-app-basic/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/Public/Apache24/htdocs/yii2/yii2-app-basic/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Users/Public/Apache24/htdocs/yii2/yii2-app-basic/web/index.php'
+    'REMOTE_PORT' => '57329'
+    'REDIRECT_URL' => '/user/default/signup'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/user/default/signup'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1437243482.576
+    'REQUEST_TIME' => 1437243482
+]
+2015-07-18 21:18:31 [127.0.0.1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'app' does not exist: C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic/messages/ru-RU/app.php Fallback file does not exist as well: C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic/messages/ru/app.php
+    in C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\modules\user\views\default\signup.php:10
+    in C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\modules\user\controllers\DefaultController.php:92
+2015-07-18 21:18:31 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '179e303dd6e882ac564b108a914f3e2c5f79e988c09dc462bba9f8f29f9a0e44a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"l2Cs1_xoMOCFnvs2A59WLmPTkTWiDaHk\";}'
+    'PHPSESSID' => '62mnpvkatskffopr2kupfodab5'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'babamiq'
+    '__captcha/site/captchacount' => 1
+    '__captcha/user/default/captcha' => 'gxminu'
+    '__captcha/user/default/captchacount' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yii2'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:39.0) Gecko/20100101 Firefox/39.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=179e303dd6e882ac564b108a914f3e2c5f79e988c09dc462bba9f8f29f9a0e44a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22l2Cs1_xoMOCFnvs2A59WLmPTkTWiDaHk%22%3B%7D; PHPSESSID=62mnpvkatskffopr2kupfodab5'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Users\\Public\\Apache24\\modules\\php5.6.11;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\PC Connectivity Solution\\;C:\\Program Files\\Common Files\\Microsoft Shared\\Windows Live;C:\\Program Files (x86)\\Common Files\\Microsoft Shared\\Windows Live;C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\Common Files\\Acronis\\SnapAPI\\;C:\\Users\\Public\\Apache24\\bin;C:\\Program Files\\MySQL\\MySQL Server 5.5\\bin;C:\\Program Files\\Common Files\\Autodesk Shared\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\QuickTime\\QTSystem\\;C:\\Program Files (x86)\\Autodesk\\Backburner\\;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Win64) OpenSSL/1.0.1p PHP/5.6.11RC1'
+    'SERVER_NAME' => 'yii2'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/Public/Apache24/htdocs/yii2/yii2-app-basic/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/Public/Apache24/htdocs/yii2/yii2-app-basic/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Users/Public/Apache24/htdocs/yii2/yii2-app-basic/web/index.php'
+    'REMOTE_PORT' => '57345'
+    'REDIRECT_URL' => '/user/default/signup'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/user/default/signup'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1437243511.812
+    'REQUEST_TIME' => 1437243511
+]
+2015-07-18 21:18:56 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "site/login/index".' in C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('site/login/inde...', Array)
+#1 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Страница не найдена.' in C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2015-07-18 21:18:56 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '179e303dd6e882ac564b108a914f3e2c5f79e988c09dc462bba9f8f29f9a0e44a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"l2Cs1_xoMOCFnvs2A59WLmPTkTWiDaHk\";}'
+    'PHPSESSID' => '62mnpvkatskffopr2kupfodab5'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'babamiq'
+    '__captcha/site/captchacount' => 1
+    '__captcha/user/default/captcha' => 'gxminu'
+    '__captcha/user/default/captchacount' => 1
+    '__returnUrl' => '/admin'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yii2'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:39.0) Gecko/20100101 Firefox/39.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=179e303dd6e882ac564b108a914f3e2c5f79e988c09dc462bba9f8f29f9a0e44a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22l2Cs1_xoMOCFnvs2A59WLmPTkTWiDaHk%22%3B%7D; PHPSESSID=62mnpvkatskffopr2kupfodab5'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Users\\Public\\Apache24\\modules\\php5.6.11;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\PC Connectivity Solution\\;C:\\Program Files\\Common Files\\Microsoft Shared\\Windows Live;C:\\Program Files (x86)\\Common Files\\Microsoft Shared\\Windows Live;C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\Common Files\\Acronis\\SnapAPI\\;C:\\Users\\Public\\Apache24\\bin;C:\\Program Files\\MySQL\\MySQL Server 5.5\\bin;C:\\Program Files\\Common Files\\Autodesk Shared\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\QuickTime\\QTSystem\\;C:\\Program Files (x86)\\Autodesk\\Backburner\\;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Win64) OpenSSL/1.0.1p PHP/5.6.11RC1'
+    'SERVER_NAME' => 'yii2'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/Public/Apache24/htdocs/yii2/yii2-app-basic/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/Public/Apache24/htdocs/yii2/yii2-app-basic/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Users/Public/Apache24/htdocs/yii2/yii2-app-basic/web/index.php'
+    'REMOTE_PORT' => '57377'
+    'REDIRECT_URL' => '/site/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/site/login'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1437243536.237
+    'REQUEST_TIME' => 1437243536
+]
+2015-07-18 21:19:05 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "site/login/index".' in C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('site/login/inde...', Array)
+#1 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Страница не найдена.' in C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2015-07-18 21:19:05 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '179e303dd6e882ac564b108a914f3e2c5f79e988c09dc462bba9f8f29f9a0e44a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"l2Cs1_xoMOCFnvs2A59WLmPTkTWiDaHk\";}'
+    'PHPSESSID' => '62mnpvkatskffopr2kupfodab5'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'babamiq'
+    '__captcha/site/captchacount' => 1
+    '__captcha/user/default/captcha' => 'gxminu'
+    '__captcha/user/default/captchacount' => 1
+    '__returnUrl' => '/admin/'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yii2'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:39.0) Gecko/20100101 Firefox/39.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=179e303dd6e882ac564b108a914f3e2c5f79e988c09dc462bba9f8f29f9a0e44a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22l2Cs1_xoMOCFnvs2A59WLmPTkTWiDaHk%22%3B%7D; PHPSESSID=62mnpvkatskffopr2kupfodab5'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Users\\Public\\Apache24\\modules\\php5.6.11;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\PC Connectivity Solution\\;C:\\Program Files\\Common Files\\Microsoft Shared\\Windows Live;C:\\Program Files (x86)\\Common Files\\Microsoft Shared\\Windows Live;C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\Common Files\\Acronis\\SnapAPI\\;C:\\Users\\Public\\Apache24\\bin;C:\\Program Files\\MySQL\\MySQL Server 5.5\\bin;C:\\Program Files\\Common Files\\Autodesk Shared\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\QuickTime\\QTSystem\\;C:\\Program Files (x86)\\Autodesk\\Backburner\\;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Win64) OpenSSL/1.0.1p PHP/5.6.11RC1'
+    'SERVER_NAME' => 'yii2'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/Public/Apache24/htdocs/yii2/yii2-app-basic/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/Public/Apache24/htdocs/yii2/yii2-app-basic/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Users/Public/Apache24/htdocs/yii2/yii2-app-basic/web/index.php'
+    'REMOTE_PORT' => '57387'
+    'REDIRECT_URL' => '/site/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/site/login'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1437243545.24
+    'REQUEST_TIME' => 1437243545
+]
+2015-07-18 21:19:12 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "site/login/index".' in C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('site/login/inde...', Array)
+#1 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Страница не найдена.' in C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2015-07-18 21:19:12 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '179e303dd6e882ac564b108a914f3e2c5f79e988c09dc462bba9f8f29f9a0e44a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"l2Cs1_xoMOCFnvs2A59WLmPTkTWiDaHk\";}'
+    'PHPSESSID' => '62mnpvkatskffopr2kupfodab5'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'babamiq'
+    '__captcha/site/captchacount' => 1
+    '__captcha/user/default/captcha' => 'gxminu'
+    '__captcha/user/default/captchacount' => 1
+    '__returnUrl' => '/admin/'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yii2'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:39.0) Gecko/20100101 Firefox/39.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=179e303dd6e882ac564b108a914f3e2c5f79e988c09dc462bba9f8f29f9a0e44a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22l2Cs1_xoMOCFnvs2A59WLmPTkTWiDaHk%22%3B%7D; PHPSESSID=62mnpvkatskffopr2kupfodab5'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\Users\\Public\\Apache24\\modules\\php5.6.11;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\PC Connectivity Solution\\;C:\\Program Files\\Common Files\\Microsoft Shared\\Windows Live;C:\\Program Files (x86)\\Common Files\\Microsoft Shared\\Windows Live;C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\Common Files\\Acronis\\SnapAPI\\;C:\\Users\\Public\\Apache24\\bin;C:\\Program Files\\MySQL\\MySQL Server 5.5\\bin;C:\\Program Files\\Common Files\\Autodesk Shared\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\QuickTime\\QTSystem\\;C:\\Program Files (x86)\\Autodesk\\Backburner\\;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Win64) OpenSSL/1.0.1p PHP/5.6.11RC1'
+    'SERVER_NAME' => 'yii2'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/Public/Apache24/htdocs/yii2/yii2-app-basic/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/Public/Apache24/htdocs/yii2/yii2-app-basic/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Users/Public/Apache24/htdocs/yii2/yii2-app-basic/web/index.php'
+    'REMOTE_PORT' => '57390'
+    'REDIRECT_URL' => '/site/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/site/login'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1437243552.71
+    'REQUEST_TIME' => 1437243552
+]
+2015-07-18 21:19:19 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "site/login/index".' in C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('site/login/inde...', Array)
+#1 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Страница не найдена.' in C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2015-07-18 21:19:19 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '179e303dd6e882ac564b108a914f3e2c5f79e988c09dc462bba9f8f29f9a0e44a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"l2Cs1_xoMOCFnvs2A59WLmPTkTWiDaHk\";}'
+    'PHPSESSID' => '62mnpvkatskffopr2kupfodab5'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'babamiq'
+    '__captcha/site/captchacount' => 1
+    '__captcha/user/default/captcha' => 'gxminu'
+    '__captcha/user/default/captchacount' => 1
+    '__returnUrl' => '/admin/'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yii2'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:39.0) Gecko/20100101 Firefox/39.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=179e303dd6e882ac564b108a914f3e2c5f79e988c09dc462bba9f8f29f9a0e44a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22l2Cs1_xoMOCFnvs2A59WLmPTkTWiDaHk%22%3B%7D; PHPSESSID=62mnpvkatskffopr2kupfodab5'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Users\\Public\\Apache24\\modules\\php5.6.11;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\PC Connectivity Solution\\;C:\\Program Files\\Common Files\\Microsoft Shared\\Windows Live;C:\\Program Files (x86)\\Common Files\\Microsoft Shared\\Windows Live;C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\Common Files\\Acronis\\SnapAPI\\;C:\\Users\\Public\\Apache24\\bin;C:\\Program Files\\MySQL\\MySQL Server 5.5\\bin;C:\\Program Files\\Common Files\\Autodesk Shared\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\QuickTime\\QTSystem\\;C:\\Program Files (x86)\\Autodesk\\Backburner\\;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Win64) OpenSSL/1.0.1p PHP/5.6.11RC1'
+    'SERVER_NAME' => 'yii2'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/Public/Apache24/htdocs/yii2/yii2-app-basic/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/Public/Apache24/htdocs/yii2/yii2-app-basic/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Users/Public/Apache24/htdocs/yii2/yii2-app-basic/web/index.php'
+    'REMOTE_PORT' => '57394'
+    'REDIRECT_URL' => '/site/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/site/login'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1437243559.403
+    'REQUEST_TIME' => 1437243559
+]
+2015-07-18 21:19:45 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "site/login/index".' in C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('site/login/inde...', Array)
+#1 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Страница не найдена.' in C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2015-07-18 21:19:45 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '179e303dd6e882ac564b108a914f3e2c5f79e988c09dc462bba9f8f29f9a0e44a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"l2Cs1_xoMOCFnvs2A59WLmPTkTWiDaHk\";}'
+    'PHPSESSID' => '62mnpvkatskffopr2kupfodab5'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yii2'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:39.0) Gecko/20100101 Firefox/39.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=179e303dd6e882ac564b108a914f3e2c5f79e988c09dc462bba9f8f29f9a0e44a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22l2Cs1_xoMOCFnvs2A59WLmPTkTWiDaHk%22%3B%7D; PHPSESSID=62mnpvkatskffopr2kupfodab5'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'PATH' => 'C:\\Users\\Public\\Apache24\\modules\\php5.6.11;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\PC Connectivity Solution\\;C:\\Program Files\\Common Files\\Microsoft Shared\\Windows Live;C:\\Program Files (x86)\\Common Files\\Microsoft Shared\\Windows Live;C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\Common Files\\Acronis\\SnapAPI\\;C:\\Users\\Public\\Apache24\\bin;C:\\Program Files\\MySQL\\MySQL Server 5.5\\bin;C:\\Program Files\\Common Files\\Autodesk Shared\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\QuickTime\\QTSystem\\;C:\\Program Files (x86)\\Autodesk\\Backburner\\;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Win64) OpenSSL/1.0.1p PHP/5.6.11RC1'
+    'SERVER_NAME' => 'yii2'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/Public/Apache24/htdocs/yii2/yii2-app-basic/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/Public/Apache24/htdocs/yii2/yii2-app-basic/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Users/Public/Apache24/htdocs/yii2/yii2-app-basic/web/index.php'
+    'REMOTE_PORT' => '57398'
+    'REDIRECT_URL' => '/site/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/site/login'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1437243585.456
+    'REQUEST_TIME' => 1437243585
+]
+2015-07-18 21:20:13 [127.0.0.1][-][62mnpvkatskffopr2kupfodab5][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "site/login/index".' in C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('site/login/inde...', Array)
+#1 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Страница не найдена.' in C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2015-07-18 21:20:13 [127.0.0.1][-][62mnpvkatskffopr2kupfodab5][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'app' does not exist: C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic/messages/ru-RU/app.php Fallback file does not exist as well: C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic/messages/ru/app.php
+    in C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\views\layouts\main.php:40
+2015-07-18 21:20:13 [127.0.0.1][-][62mnpvkatskffopr2kupfodab5][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\components\widgets\Alert' not found' in C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\views\layouts\main.php:71
+Stack trace:
+#0 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile()
+#1 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\Controller.php(386): yii\base\View->renderFile()
+#2 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\Controller.php(372): yii\base\Controller->renderContent()
+#3 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\web\ErrorAction.php(108): yii\base\Controller->render()
+#4 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\Action.php(92): yii\web\ErrorAction->run()
+#5 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\Action.php(92): ::call_user_func_array:{C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\Action.php:92}()
+#6 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\Action->runWithParams()
+#7 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction()
+#8 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\web\ErrorHandler.php(80): yii\base\Module->runAction()
+#9 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\ErrorHandler.php(101): yii\web\ErrorHandler->renderException()
+#10 {main}
+2015-07-18 21:20:13 [127.0.0.1][-][62mnpvkatskffopr2kupfodab5][info][application] $_COOKIE = [
+    '_csrf' => '179e303dd6e882ac564b108a914f3e2c5f79e988c09dc462bba9f8f29f9a0e44a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"l2Cs1_xoMOCFnvs2A59WLmPTkTWiDaHk\";}'
+    'PHPSESSID' => '62mnpvkatskffopr2kupfodab5'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'babamiq'
+    '__captcha/site/captchacount' => 1
+    '__captcha/user/default/captcha' => 'gxminu'
+    '__captcha/user/default/captchacount' => 1
+    '__returnUrl' => '/admin/'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yii2'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:39.0) Gecko/20100101 Firefox/39.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=179e303dd6e882ac564b108a914f3e2c5f79e988c09dc462bba9f8f29f9a0e44a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22l2Cs1_xoMOCFnvs2A59WLmPTkTWiDaHk%22%3B%7D; PHPSESSID=62mnpvkatskffopr2kupfodab5'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'PATH' => 'C:\\Users\\Public\\Apache24\\modules\\php5.6.11;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\PC Connectivity Solution\\;C:\\Program Files\\Common Files\\Microsoft Shared\\Windows Live;C:\\Program Files (x86)\\Common Files\\Microsoft Shared\\Windows Live;C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\Common Files\\Acronis\\SnapAPI\\;C:\\Users\\Public\\Apache24\\bin;C:\\Program Files\\MySQL\\MySQL Server 5.5\\bin;C:\\Program Files\\Common Files\\Autodesk Shared\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\QuickTime\\QTSystem\\;C:\\Program Files (x86)\\Autodesk\\Backburner\\;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Win64) OpenSSL/1.0.1p PHP/5.6.11RC1'
+    'SERVER_NAME' => 'yii2'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/Public/Apache24/htdocs/yii2/yii2-app-basic/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/Public/Apache24/htdocs/yii2/yii2-app-basic/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Users/Public/Apache24/htdocs/yii2/yii2-app-basic/web/index.php'
+    'REMOTE_PORT' => '57414'
+    'REDIRECT_URL' => '/site/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/site/login'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1437243613.459
+    'REQUEST_TIME' => 1437243613
+]
+2015-07-18 21:20:36 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "site/login/index".' in C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('site/login/inde...', Array)
+#1 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Страница не найдена.' in C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2015-07-18 21:20:36 [127.0.0.1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'app' does not exist: C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic/messages/ru-RU/app.php Fallback file does not exist as well: C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic/messages/ru/app.php
+    in C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\views\layouts\main.php:40
+2015-07-18 21:20:36 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '179e303dd6e882ac564b108a914f3e2c5f79e988c09dc462bba9f8f29f9a0e44a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"l2Cs1_xoMOCFnvs2A59WLmPTkTWiDaHk\";}'
+    'PHPSESSID' => '62mnpvkatskffopr2kupfodab5'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'babamiq'
+    '__captcha/site/captchacount' => 1
+    '__captcha/user/default/captcha' => 'gxminu'
+    '__captcha/user/default/captchacount' => 1
+    '__returnUrl' => '/admin/'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yii2'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:39.0) Gecko/20100101 Firefox/39.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=179e303dd6e882ac564b108a914f3e2c5f79e988c09dc462bba9f8f29f9a0e44a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22l2Cs1_xoMOCFnvs2A59WLmPTkTWiDaHk%22%3B%7D; PHPSESSID=62mnpvkatskffopr2kupfodab5'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'PATH' => 'C:\\Users\\Public\\Apache24\\modules\\php5.6.11;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\PC Connectivity Solution\\;C:\\Program Files\\Common Files\\Microsoft Shared\\Windows Live;C:\\Program Files (x86)\\Common Files\\Microsoft Shared\\Windows Live;C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\Common Files\\Acronis\\SnapAPI\\;C:\\Users\\Public\\Apache24\\bin;C:\\Program Files\\MySQL\\MySQL Server 5.5\\bin;C:\\Program Files\\Common Files\\Autodesk Shared\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\QuickTime\\QTSystem\\;C:\\Program Files (x86)\\Autodesk\\Backburner\\;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Win64) OpenSSL/1.0.1p PHP/5.6.11RC1'
+    'SERVER_NAME' => 'yii2'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/Public/Apache24/htdocs/yii2/yii2-app-basic/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/Public/Apache24/htdocs/yii2/yii2-app-basic/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Users/Public/Apache24/htdocs/yii2/yii2-app-basic/web/index.php'
+    'REMOTE_PORT' => '57456'
+    'REDIRECT_URL' => '/site/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/site/login'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1437243636.643
+    'REQUEST_TIME' => 1437243636
+]
+2015-07-18 21:20:43 [127.0.0.1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'app' does not exist: C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic/messages/ru-RU/app.php Fallback file does not exist as well: C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic/messages/ru/app.php
+    in C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\modules\user\views\default\signup.php:10
+    in C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\modules\user\controllers\DefaultController.php:92
+2015-07-18 21:20:43 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '179e303dd6e882ac564b108a914f3e2c5f79e988c09dc462bba9f8f29f9a0e44a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"l2Cs1_xoMOCFnvs2A59WLmPTkTWiDaHk\";}'
+    'PHPSESSID' => '62mnpvkatskffopr2kupfodab5'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'babamiq'
+    '__captcha/site/captchacount' => 1
+    '__captcha/user/default/captcha' => 'gxminu'
+    '__captcha/user/default/captchacount' => 1
+    '__returnUrl' => '/admin/'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yii2'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:39.0) Gecko/20100101 Firefox/39.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://yii2/site/login'
+    'HTTP_COOKIE' => '_csrf=179e303dd6e882ac564b108a914f3e2c5f79e988c09dc462bba9f8f29f9a0e44a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22l2Cs1_xoMOCFnvs2A59WLmPTkTWiDaHk%22%3B%7D; PHPSESSID=62mnpvkatskffopr2kupfodab5'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Users\\Public\\Apache24\\modules\\php5.6.11;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\PC Connectivity Solution\\;C:\\Program Files\\Common Files\\Microsoft Shared\\Windows Live;C:\\Program Files (x86)\\Common Files\\Microsoft Shared\\Windows Live;C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\Common Files\\Acronis\\SnapAPI\\;C:\\Users\\Public\\Apache24\\bin;C:\\Program Files\\MySQL\\MySQL Server 5.5\\bin;C:\\Program Files\\Common Files\\Autodesk Shared\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\QuickTime\\QTSystem\\;C:\\Program Files (x86)\\Autodesk\\Backburner\\;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Win64) OpenSSL/1.0.1p PHP/5.6.11RC1'
+    'SERVER_NAME' => 'yii2'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/Public/Apache24/htdocs/yii2/yii2-app-basic/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/Public/Apache24/htdocs/yii2/yii2-app-basic/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Users/Public/Apache24/htdocs/yii2/yii2-app-basic/web/index.php'
+    'REMOTE_PORT' => '57472'
+    'REDIRECT_URL' => '/signup'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/signup'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1437243643.601
+    'REQUEST_TIME' => 1437243643
+]
+2015-07-18 21:20:45 [127.0.0.1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'app' does not exist: C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic/messages/ru-RU/app.php Fallback file does not exist as well: C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic/messages/ru/app.php
+    in C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\modules\main\views\contact\index.php:10
+    in C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\modules\main\controllers\ContactController.php:35
+2015-07-18 21:20:45 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '179e303dd6e882ac564b108a914f3e2c5f79e988c09dc462bba9f8f29f9a0e44a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"l2Cs1_xoMOCFnvs2A59WLmPTkTWiDaHk\";}'
+    'PHPSESSID' => '62mnpvkatskffopr2kupfodab5'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'babamiq'
+    '__captcha/site/captchacount' => 1
+    '__captcha/user/default/captcha' => 'gxminu'
+    '__captcha/user/default/captchacount' => 1
+    '__returnUrl' => '/admin/'
+    '__captcha/main/contact/captcha' => 'jdvuaeo'
+    '__captcha/main/contact/captchacount' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yii2'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:39.0) Gecko/20100101 Firefox/39.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://yii2/signup'
+    'HTTP_COOKIE' => '_csrf=179e303dd6e882ac564b108a914f3e2c5f79e988c09dc462bba9f8f29f9a0e44a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22l2Cs1_xoMOCFnvs2A59WLmPTkTWiDaHk%22%3B%7D; PHPSESSID=62mnpvkatskffopr2kupfodab5'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Users\\Public\\Apache24\\modules\\php5.6.11;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\PC Connectivity Solution\\;C:\\Program Files\\Common Files\\Microsoft Shared\\Windows Live;C:\\Program Files (x86)\\Common Files\\Microsoft Shared\\Windows Live;C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\Common Files\\Acronis\\SnapAPI\\;C:\\Users\\Public\\Apache24\\bin;C:\\Program Files\\MySQL\\MySQL Server 5.5\\bin;C:\\Program Files\\Common Files\\Autodesk Shared\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\QuickTime\\QTSystem\\;C:\\Program Files (x86)\\Autodesk\\Backburner\\;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Win64) OpenSSL/1.0.1p PHP/5.6.11RC1'
+    'SERVER_NAME' => 'yii2'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/Public/Apache24/htdocs/yii2/yii2-app-basic/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/Public/Apache24/htdocs/yii2/yii2-app-basic/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Users/Public/Apache24/htdocs/yii2/yii2-app-basic/web/index.php'
+    'REMOTE_PORT' => '57475'
+    'REDIRECT_URL' => '/contact'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/contact'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1437243645.615
+    'REQUEST_TIME' => 1437243645
+]
+2015-07-18 21:20:48 [127.0.0.1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'app' does not exist: C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic/messages/ru-RU/app.php Fallback file does not exist as well: C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic/messages/ru/app.php
+    in C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\views\layouts\main.php:40
+    in C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\modules\main\controllers\DefaultController.php:20
+2015-07-18 21:20:48 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '179e303dd6e882ac564b108a914f3e2c5f79e988c09dc462bba9f8f29f9a0e44a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"l2Cs1_xoMOCFnvs2A59WLmPTkTWiDaHk\";}'
+    'PHPSESSID' => '62mnpvkatskffopr2kupfodab5'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'babamiq'
+    '__captcha/site/captchacount' => 1
+    '__captcha/user/default/captcha' => 'gxminu'
+    '__captcha/user/default/captchacount' => 1
+    '__returnUrl' => '/admin/'
+    '__captcha/main/contact/captcha' => 'jdvuaeo'
+    '__captcha/main/contact/captchacount' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'yii2'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:39.0) Gecko/20100101 Firefox/39.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://yii2/contact'
+    'HTTP_COOKIE' => '_csrf=179e303dd6e882ac564b108a914f3e2c5f79e988c09dc462bba9f8f29f9a0e44a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22l2Cs1_xoMOCFnvs2A59WLmPTkTWiDaHk%22%3B%7D; PHPSESSID=62mnpvkatskffopr2kupfodab5'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Users\\Public\\Apache24\\modules\\php5.6.11;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\PC Connectivity Solution\\;C:\\Program Files\\Common Files\\Microsoft Shared\\Windows Live;C:\\Program Files (x86)\\Common Files\\Microsoft Shared\\Windows Live;C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\Common Files\\Acronis\\SnapAPI\\;C:\\Users\\Public\\Apache24\\bin;C:\\Program Files\\MySQL\\MySQL Server 5.5\\bin;C:\\Program Files\\Common Files\\Autodesk Shared\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\QuickTime\\QTSystem\\;C:\\Program Files (x86)\\Autodesk\\Backburner\\;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Win64) OpenSSL/1.0.1p PHP/5.6.11RC1'
+    'SERVER_NAME' => 'yii2'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/Public/Apache24/htdocs/yii2/yii2-app-basic/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/Public/Apache24/htdocs/yii2/yii2-app-basic/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Users/Public/Apache24/htdocs/yii2/yii2-app-basic/web/index.php'
+    'REMOTE_PORT' => '57475'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1437243648.857
+    'REQUEST_TIME' => 1437243648
+]
+2015-07-18 21:20:51 [127.0.0.1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'app' does not exist: C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic/messages/ru-RU/app.php Fallback file does not exist as well: C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic/messages/ru/app.php
+    in C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\modules\user\views\default\login.php:9
+    in C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\modules\user\controllers\DefaultController.php:69
+2015-07-18 21:20:51 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '179e303dd6e882ac564b108a914f3e2c5f79e988c09dc462bba9f8f29f9a0e44a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"l2Cs1_xoMOCFnvs2A59WLmPTkTWiDaHk\";}'
+    'PHPSESSID' => '62mnpvkatskffopr2kupfodab5'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'babamiq'
+    '__captcha/site/captchacount' => 1
+    '__captcha/user/default/captcha' => 'gxminu'
+    '__captcha/user/default/captchacount' => 1
+    '__returnUrl' => '/admin/'
+    '__captcha/main/contact/captcha' => 'jdvuaeo'
+    '__captcha/main/contact/captchacount' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yii2'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:39.0) Gecko/20100101 Firefox/39.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://yii2/'
+    'HTTP_COOKIE' => '_csrf=179e303dd6e882ac564b108a914f3e2c5f79e988c09dc462bba9f8f29f9a0e44a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22l2Cs1_xoMOCFnvs2A59WLmPTkTWiDaHk%22%3B%7D; PHPSESSID=62mnpvkatskffopr2kupfodab5'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Users\\Public\\Apache24\\modules\\php5.6.11;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\PC Connectivity Solution\\;C:\\Program Files\\Common Files\\Microsoft Shared\\Windows Live;C:\\Program Files (x86)\\Common Files\\Microsoft Shared\\Windows Live;C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\Common Files\\Acronis\\SnapAPI\\;C:\\Users\\Public\\Apache24\\bin;C:\\Program Files\\MySQL\\MySQL Server 5.5\\bin;C:\\Program Files\\Common Files\\Autodesk Shared\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\QuickTime\\QTSystem\\;C:\\Program Files (x86)\\Autodesk\\Backburner\\;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Win64) OpenSSL/1.0.1p PHP/5.6.11RC1'
+    'SERVER_NAME' => 'yii2'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/Public/Apache24/htdocs/yii2/yii2-app-basic/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/Public/Apache24/htdocs/yii2/yii2-app-basic/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Users/Public/Apache24/htdocs/yii2/yii2-app-basic/web/index.php'
+    'REMOTE_PORT' => '57475'
+    'REDIRECT_URL' => '/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/login'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1437243651.282
+    'REQUEST_TIME' => 1437243651
+]
+2015-07-18 21:21:06 [127.0.0.1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'app' does not exist: C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic/messages/ru-RU/app.php Fallback file does not exist as well: C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic/messages/ru/app.php
+    in C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\modules\user\views\default\login.php:9
+    in C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\modules\user\controllers\DefaultController.php:69
+2015-07-18 21:21:05 [127.0.0.1][-][-][info][application] $_POST = [
+    '_csrf' => 'LndFRkxwc0NCRQY1fS8LLGM4BgAiBgBxb0J8EQAdIxdFIxIvCBE7KA=='
+    'LoginForm' => [
+        'username' => 'svid'
+        'password' => 'svid_off'
+        'rememberMe' => '1'
+    ]
+    'login-button' => ''
+]
+
+$_COOKIE = [
+    '_csrf' => '179e303dd6e882ac564b108a914f3e2c5f79e988c09dc462bba9f8f29f9a0e44a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"l2Cs1_xoMOCFnvs2A59WLmPTkTWiDaHk\";}'
+    'PHPSESSID' => '62mnpvkatskffopr2kupfodab5'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'babamiq'
+    '__captcha/site/captchacount' => 1
+    '__captcha/user/default/captcha' => 'gxminu'
+    '__captcha/user/default/captchacount' => 1
+    '__returnUrl' => '/admin/'
+    '__captcha/main/contact/captcha' => 'jdvuaeo'
+    '__captcha/main/contact/captchacount' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yii2'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:39.0) Gecko/20100101 Firefox/39.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://yii2/login'
+    'HTTP_COOKIE' => '_csrf=179e303dd6e882ac564b108a914f3e2c5f79e988c09dc462bba9f8f29f9a0e44a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22l2Cs1_xoMOCFnvs2A59WLmPTkTWiDaHk%22%3B%7D; PHPSESSID=62mnpvkatskffopr2kupfodab5'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '198'
+    'PATH' => 'C:\\Users\\Public\\Apache24\\modules\\php5.6.11;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\PC Connectivity Solution\\;C:\\Program Files\\Common Files\\Microsoft Shared\\Windows Live;C:\\Program Files (x86)\\Common Files\\Microsoft Shared\\Windows Live;C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\Common Files\\Acronis\\SnapAPI\\;C:\\Users\\Public\\Apache24\\bin;C:\\Program Files\\MySQL\\MySQL Server 5.5\\bin;C:\\Program Files\\Common Files\\Autodesk Shared\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\QuickTime\\QTSystem\\;C:\\Program Files (x86)\\Autodesk\\Backburner\\;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Win64) OpenSSL/1.0.1p PHP/5.6.11RC1'
+    'SERVER_NAME' => 'yii2'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/Public/Apache24/htdocs/yii2/yii2-app-basic/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/Public/Apache24/htdocs/yii2/yii2-app-basic/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Users/Public/Apache24/htdocs/yii2/yii2-app-basic/web/index.php'
+    'REMOTE_PORT' => '57483'
+    'REDIRECT_URL' => '/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/login'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1437243665.764
+    'REQUEST_TIME' => 1437243665
+]
+2015-07-18 21:21:35 [127.0.0.1][1][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'app' does not exist: C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic/messages/ru-RU/app.php Fallback file does not exist as well: C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic/messages/ru/app.php
+    in C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\modules\admin\views\default\index.php:8
+    in C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\modules\admin\controllers\DefaultController.php:11
+2015-07-18 21:21:35 [127.0.0.1][1][-][info][application] $_COOKIE = [
+    '_csrf' => '179e303dd6e882ac564b108a914f3e2c5f79e988c09dc462bba9f8f29f9a0e44a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"l2Cs1_xoMOCFnvs2A59WLmPTkTWiDaHk\";}'
+    'PHPSESSID' => 'dloduobc3ddisvc4ndp5gdhfa5'
+    '_identity' => '85863d594e61042b6f11146a250e2f6245f282efe2aaf4b219266bbcce98bef8a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"uCqgxEgfH7LJhJ4vwfdEEsVw2tkE4H4Z\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'babamiq'
+    '__captcha/site/captchacount' => 1
+    '__captcha/user/default/captcha' => 'gxminu'
+    '__captcha/user/default/captchacount' => 1
+    '__returnUrl' => '/admin/'
+    '__captcha/main/contact/captcha' => 'jdvuaeo'
+    '__captcha/main/contact/captchacount' => 1
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yii2'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:39.0) Gecko/20100101 Firefox/39.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://yii2/login'
+    'HTTP_COOKIE' => '_csrf=179e303dd6e882ac564b108a914f3e2c5f79e988c09dc462bba9f8f29f9a0e44a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22l2Cs1_xoMOCFnvs2A59WLmPTkTWiDaHk%22%3B%7D; PHPSESSID=dloduobc3ddisvc4ndp5gdhfa5; _identity=85863d594e61042b6f11146a250e2f6245f282efe2aaf4b219266bbcce98bef8a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22uCqgxEgfH7LJhJ4vwfdEEsVw2tkE4H4Z%22%2C2592000%5D%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'PATH' => 'C:\\Users\\Public\\Apache24\\modules\\php5.6.11;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\PC Connectivity Solution\\;C:\\Program Files\\Common Files\\Microsoft Shared\\Windows Live;C:\\Program Files (x86)\\Common Files\\Microsoft Shared\\Windows Live;C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\Common Files\\Acronis\\SnapAPI\\;C:\\Users\\Public\\Apache24\\bin;C:\\Program Files\\MySQL\\MySQL Server 5.5\\bin;C:\\Program Files\\Common Files\\Autodesk Shared\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\QuickTime\\QTSystem\\;C:\\Program Files (x86)\\Autodesk\\Backburner\\;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Win64) OpenSSL/1.0.1p PHP/5.6.11RC1'
+    'SERVER_NAME' => 'yii2'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/Public/Apache24/htdocs/yii2/yii2-app-basic/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/Public/Apache24/htdocs/yii2/yii2-app-basic/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Users/Public/Apache24/htdocs/yii2/yii2-app-basic/web/index.php'
+    'REMOTE_PORT' => '57496'
+    'REDIRECT_URL' => '/admin/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1437243695.706
+    'REQUEST_TIME' => 1437243695
+]
+2015-07-18 21:21:39 [127.0.0.1][1][dloduobc3ddisvc4ndp5gdhfa5][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'app' does not exist: C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic/messages/ru-RU/app.php Fallback file does not exist as well: C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic/messages/ru/app.php
+    in C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\modules\user\models\User.php:69
+    in C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\modules\admin\models\User.php:41
+    in C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\modules\admin\models\UserSearch.php:66
+2015-07-18 21:21:39 [127.0.0.1][1][dloduobc3ddisvc4ndp5gdhfa5][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'kartik\date\DatePicker' not found' in C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\modules\admin\views\users\index.php:33
+Stack trace:
+#0 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile()
+#1 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile()
+#2 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\Controller.php(371): yii\base\View->render()
+#3 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\modules\admin\controllers\UsersController.php(41): yii\base\Controller->render()
+#4 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\InlineAction.php(55): app\modules\admin\controllers\UsersController->actionIndex()
+#5 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#6 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams()
+#7 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction()
+#8 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction()
+#9 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest()
+#10 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\web\index.php(17): yii\base\Application->run()
+#11 {main}
+2015-07-18 21:21:39 [127.0.0.1][1][dloduobc3ddisvc4ndp5gdhfa5][info][application] $_COOKIE = [
+    '_csrf' => '179e303dd6e882ac564b108a914f3e2c5f79e988c09dc462bba9f8f29f9a0e44a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"l2Cs1_xoMOCFnvs2A59WLmPTkTWiDaHk\";}'
+    'PHPSESSID' => 'dloduobc3ddisvc4ndp5gdhfa5'
+    '_identity' => '85863d594e61042b6f11146a250e2f6245f282efe2aaf4b219266bbcce98bef8a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"uCqgxEgfH7LJhJ4vwfdEEsVw2tkE4H4Z\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'babamiq'
+    '__captcha/site/captchacount' => 1
+    '__captcha/user/default/captcha' => 'gxminu'
+    '__captcha/user/default/captchacount' => 1
+    '__returnUrl' => '/admin/'
+    '__captcha/main/contact/captcha' => 'jdvuaeo'
+    '__captcha/main/contact/captchacount' => 1
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yii2'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:39.0) Gecko/20100101 Firefox/39.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://yii2/admin/'
+    'HTTP_COOKIE' => '_csrf=179e303dd6e882ac564b108a914f3e2c5f79e988c09dc462bba9f8f29f9a0e44a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22l2Cs1_xoMOCFnvs2A59WLmPTkTWiDaHk%22%3B%7D; PHPSESSID=dloduobc3ddisvc4ndp5gdhfa5; _identity=85863d594e61042b6f11146a250e2f6245f282efe2aaf4b219266bbcce98bef8a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22uCqgxEgfH7LJhJ4vwfdEEsVw2tkE4H4Z%22%2C2592000%5D%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Users\\Public\\Apache24\\modules\\php5.6.11;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\PC Connectivity Solution\\;C:\\Program Files\\Common Files\\Microsoft Shared\\Windows Live;C:\\Program Files (x86)\\Common Files\\Microsoft Shared\\Windows Live;C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\Common Files\\Acronis\\SnapAPI\\;C:\\Users\\Public\\Apache24\\bin;C:\\Program Files\\MySQL\\MySQL Server 5.5\\bin;C:\\Program Files\\Common Files\\Autodesk Shared\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\QuickTime\\QTSystem\\;C:\\Program Files (x86)\\Autodesk\\Backburner\\;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Win64) OpenSSL/1.0.1p PHP/5.6.11RC1'
+    'SERVER_NAME' => 'yii2'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/Public/Apache24/htdocs/yii2/yii2-app-basic/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/Public/Apache24/htdocs/yii2/yii2-app-basic/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Users/Public/Apache24/htdocs/yii2/yii2-app-basic/web/index.php'
+    'REMOTE_PORT' => '57502'
+    'REDIRECT_URL' => '/admin/users'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin/users'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1437243699.042
+    'REQUEST_TIME' => 1437243699
+]
+2015-07-18 21:21:51 [127.0.0.1][1][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'app' does not exist: C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic/messages/ru-RU/app.php Fallback file does not exist as well: C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic/messages/ru/app.php
+    in C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\modules\admin\views\default\index.php:8
+    in C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\modules\admin\controllers\DefaultController.php:11
+2015-07-18 21:21:50 [127.0.0.1][1][-][info][application] $_COOKIE = [
+    '_csrf' => '179e303dd6e882ac564b108a914f3e2c5f79e988c09dc462bba9f8f29f9a0e44a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"l2Cs1_xoMOCFnvs2A59WLmPTkTWiDaHk\";}'
+    'PHPSESSID' => 'dloduobc3ddisvc4ndp5gdhfa5'
+    '_identity' => '85863d594e61042b6f11146a250e2f6245f282efe2aaf4b219266bbcce98bef8a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"uCqgxEgfH7LJhJ4vwfdEEsVw2tkE4H4Z\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'babamiq'
+    '__captcha/site/captchacount' => 1
+    '__captcha/user/default/captcha' => 'gxminu'
+    '__captcha/user/default/captchacount' => 1
+    '__returnUrl' => '/admin/'
+    '__captcha/main/contact/captcha' => 'jdvuaeo'
+    '__captcha/main/contact/captchacount' => 1
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yii2'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:39.0) Gecko/20100101 Firefox/39.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://yii2/login'
+    'HTTP_COOKIE' => '_csrf=179e303dd6e882ac564b108a914f3e2c5f79e988c09dc462bba9f8f29f9a0e44a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22l2Cs1_xoMOCFnvs2A59WLmPTkTWiDaHk%22%3B%7D; PHPSESSID=dloduobc3ddisvc4ndp5gdhfa5; _identity=85863d594e61042b6f11146a250e2f6245f282efe2aaf4b219266bbcce98bef8a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22uCqgxEgfH7LJhJ4vwfdEEsVw2tkE4H4Z%22%2C2592000%5D%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Users\\Public\\Apache24\\modules\\php5.6.11;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\PC Connectivity Solution\\;C:\\Program Files\\Common Files\\Microsoft Shared\\Windows Live;C:\\Program Files (x86)\\Common Files\\Microsoft Shared\\Windows Live;C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\Common Files\\Acronis\\SnapAPI\\;C:\\Users\\Public\\Apache24\\bin;C:\\Program Files\\MySQL\\MySQL Server 5.5\\bin;C:\\Program Files\\Common Files\\Autodesk Shared\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\QuickTime\\QTSystem\\;C:\\Program Files (x86)\\Autodesk\\Backburner\\;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Win64) OpenSSL/1.0.1p PHP/5.6.11RC1'
+    'SERVER_NAME' => 'yii2'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/Public/Apache24/htdocs/yii2/yii2-app-basic/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/Public/Apache24/htdocs/yii2/yii2-app-basic/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Users/Public/Apache24/htdocs/yii2/yii2-app-basic/web/index.php'
+    'REMOTE_PORT' => '57509'
+    'REDIRECT_URL' => '/admin/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1437243710.863
+    'REQUEST_TIME' => 1437243710
+]
+2015-07-18 21:24:12 [127.0.0.1][1][dloduobc3ddisvc4ndp5gdhfa5][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'kartik\date\DatePicker' not found' in C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\modules\admin\views\users\index.php:33
+Stack trace:
+#0 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile()
+#1 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile()
+#2 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\Controller.php(371): yii\base\View->render()
+#3 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\modules\admin\controllers\UsersController.php(41): yii\base\Controller->render()
+#4 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\InlineAction.php(55): app\modules\admin\controllers\UsersController->actionIndex()
+#5 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#6 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams()
+#7 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction()
+#8 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction()
+#9 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest()
+#10 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\web\index.php(17): yii\base\Application->run()
+#11 {main}
+2015-07-18 21:24:12 [127.0.0.1][1][dloduobc3ddisvc4ndp5gdhfa5][info][application] $_COOKIE = [
+    '_csrf' => '179e303dd6e882ac564b108a914f3e2c5f79e988c09dc462bba9f8f29f9a0e44a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"l2Cs1_xoMOCFnvs2A59WLmPTkTWiDaHk\";}'
+    'PHPSESSID' => 'dloduobc3ddisvc4ndp5gdhfa5'
+    '_identity' => '85863d594e61042b6f11146a250e2f6245f282efe2aaf4b219266bbcce98bef8a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"uCqgxEgfH7LJhJ4vwfdEEsVw2tkE4H4Z\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'babamiq'
+    '__captcha/site/captchacount' => 1
+    '__captcha/user/default/captcha' => 'gxminu'
+    '__captcha/user/default/captchacount' => 1
+    '__returnUrl' => '/admin/'
+    '__captcha/main/contact/captcha' => 'jdvuaeo'
+    '__captcha/main/contact/captchacount' => 1
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yii2'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:39.0) Gecko/20100101 Firefox/39.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://yii2/admin'
+    'HTTP_COOKIE' => '_csrf=179e303dd6e882ac564b108a914f3e2c5f79e988c09dc462bba9f8f29f9a0e44a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22l2Cs1_xoMOCFnvs2A59WLmPTkTWiDaHk%22%3B%7D; PHPSESSID=dloduobc3ddisvc4ndp5gdhfa5; _identity=85863d594e61042b6f11146a250e2f6245f282efe2aaf4b219266bbcce98bef8a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22uCqgxEgfH7LJhJ4vwfdEEsVw2tkE4H4Z%22%2C2592000%5D%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Users\\Public\\Apache24\\modules\\php5.6.11;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\PC Connectivity Solution\\;C:\\Program Files\\Common Files\\Microsoft Shared\\Windows Live;C:\\Program Files (x86)\\Common Files\\Microsoft Shared\\Windows Live;C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\Common Files\\Acronis\\SnapAPI\\;C:\\Users\\Public\\Apache24\\bin;C:\\Program Files\\MySQL\\MySQL Server 5.5\\bin;C:\\Program Files\\Common Files\\Autodesk Shared\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\QuickTime\\QTSystem\\;C:\\Program Files (x86)\\Autodesk\\Backburner\\;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Win64) OpenSSL/1.0.1p PHP/5.6.11RC1'
+    'SERVER_NAME' => 'yii2'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/Public/Apache24/htdocs/yii2/yii2-app-basic/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/Public/Apache24/htdocs/yii2/yii2-app-basic/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Users/Public/Apache24/htdocs/yii2/yii2-app-basic/web/index.php'
+    'REMOTE_PORT' => '57638'
+    'REDIRECT_URL' => '/admin/users'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin/users'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1437243852.768
+    'REQUEST_TIME' => 1437243852
+]
+2015-07-18 21:24:31 [127.0.0.1][1][dloduobc3ddisvc4ndp5gdhfa5][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'kartik\date\DatePicker' not found' in C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\modules\admin\views\users\index.php:33
+Stack trace:
+#0 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile()
+#1 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile()
+#2 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\Controller.php(371): yii\base\View->render()
+#3 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\modules\admin\controllers\UsersController.php(41): yii\base\Controller->render()
+#4 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\InlineAction.php(55): app\modules\admin\controllers\UsersController->actionIndex()
+#5 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#6 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams()
+#7 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction()
+#8 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction()
+#9 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest()
+#10 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\web\index.php(17): yii\base\Application->run()
+#11 {main}
+2015-07-18 21:24:30 [127.0.0.1][1][dloduobc3ddisvc4ndp5gdhfa5][info][application] $_COOKIE = [
+    '_csrf' => '179e303dd6e882ac564b108a914f3e2c5f79e988c09dc462bba9f8f29f9a0e44a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"l2Cs1_xoMOCFnvs2A59WLmPTkTWiDaHk\";}'
+    'PHPSESSID' => 'dloduobc3ddisvc4ndp5gdhfa5'
+    '_identity' => '85863d594e61042b6f11146a250e2f6245f282efe2aaf4b219266bbcce98bef8a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"uCqgxEgfH7LJhJ4vwfdEEsVw2tkE4H4Z\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'babamiq'
+    '__captcha/site/captchacount' => 1
+    '__captcha/user/default/captcha' => 'gxminu'
+    '__captcha/user/default/captchacount' => 1
+    '__returnUrl' => '/admin/'
+    '__captcha/main/contact/captcha' => 'jdvuaeo'
+    '__captcha/main/contact/captchacount' => 1
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yii2'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:39.0) Gecko/20100101 Firefox/39.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://yii2/admin'
+    'HTTP_COOKIE' => '_csrf=179e303dd6e882ac564b108a914f3e2c5f79e988c09dc462bba9f8f29f9a0e44a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22l2Cs1_xoMOCFnvs2A59WLmPTkTWiDaHk%22%3B%7D; PHPSESSID=dloduobc3ddisvc4ndp5gdhfa5; _identity=85863d594e61042b6f11146a250e2f6245f282efe2aaf4b219266bbcce98bef8a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22uCqgxEgfH7LJhJ4vwfdEEsVw2tkE4H4Z%22%2C2592000%5D%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Users\\Public\\Apache24\\modules\\php5.6.11;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\PC Connectivity Solution\\;C:\\Program Files\\Common Files\\Microsoft Shared\\Windows Live;C:\\Program Files (x86)\\Common Files\\Microsoft Shared\\Windows Live;C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\Common Files\\Acronis\\SnapAPI\\;C:\\Users\\Public\\Apache24\\bin;C:\\Program Files\\MySQL\\MySQL Server 5.5\\bin;C:\\Program Files\\Common Files\\Autodesk Shared\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\QuickTime\\QTSystem\\;C:\\Program Files (x86)\\Autodesk\\Backburner\\;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Win64) OpenSSL/1.0.1p PHP/5.6.11RC1'
+    'SERVER_NAME' => 'yii2'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/Public/Apache24/htdocs/yii2/yii2-app-basic/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/Public/Apache24/htdocs/yii2/yii2-app-basic/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Users/Public/Apache24/htdocs/yii2/yii2-app-basic/web/index.php'
+    'REMOTE_PORT' => '57659'
+    'REDIRECT_URL' => '/admin/users'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin/users'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1437243870.981
+    'REQUEST_TIME' => 1437243870
+]
+2015-07-18 21:28:10 [127.0.0.1][1][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "user/profile/index".' in C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('user/profile/in...', Array)
+#1 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Страница не найдена.' in C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Users\Public\Apache24\htdocs\yii2\yii2-app-basic\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2015-07-18 21:28:10 [127.0.0.1][1][-][info][application] $_COOKIE = [
+    '_csrf' => '179e303dd6e882ac564b108a914f3e2c5f79e988c09dc462bba9f8f29f9a0e44a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"l2Cs1_xoMOCFnvs2A59WLmPTkTWiDaHk\";}'
+    'PHPSESSID' => 'dloduobc3ddisvc4ndp5gdhfa5'
+    '_identity' => '85863d594e61042b6f11146a250e2f6245f282efe2aaf4b219266bbcce98bef8a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"uCqgxEgfH7LJhJ4vwfdEEsVw2tkE4H4Z\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'babamiq'
+    '__captcha/site/captchacount' => 1
+    '__captcha/user/default/captcha' => 'gxminu'
+    '__captcha/user/default/captchacount' => 1
+    '__returnUrl' => '/admin/'
+    '__captcha/main/contact/captcha' => 'jdvuaeo'
+    '__captcha/main/contact/captchacount' => 1
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yii2'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:39.0) Gecko/20100101 Firefox/39.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://yii2/admin/users'
+    'HTTP_COOKIE' => '_csrf=179e303dd6e882ac564b108a914f3e2c5f79e988c09dc462bba9f8f29f9a0e44a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22l2Cs1_xoMOCFnvs2A59WLmPTkTWiDaHk%22%3B%7D; PHPSESSID=dloduobc3ddisvc4ndp5gdhfa5; _identity=85863d594e61042b6f11146a250e2f6245f282efe2aaf4b219266bbcce98bef8a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22uCqgxEgfH7LJhJ4vwfdEEsVw2tkE4H4Z%22%2C2592000%5D%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Users\\Public\\Apache24\\modules\\php5.6.11;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\PC Connectivity Solution\\;C:\\Program Files\\Common Files\\Microsoft Shared\\Windows Live;C:\\Program Files (x86)\\Common Files\\Microsoft Shared\\Windows Live;C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files (x86)\\Common Files\\Acronis\\SnapAPI\\;C:\\Users\\Public\\Apache24\\bin;C:\\Program Files\\MySQL\\MySQL Server 5.5\\bin;C:\\Program Files\\Common Files\\Autodesk Shared\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\QuickTime\\QTSystem\\;C:\\Program Files (x86)\\Autodesk\\Backburner\\;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Win64) OpenSSL/1.0.1p PHP/5.6.11RC1'
+    'SERVER_NAME' => 'yii2'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/Public/Apache24/htdocs/yii2/yii2-app-basic/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/Public/Apache24/htdocs/yii2/yii2-app-basic/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Users/Public/Apache24/htdocs/yii2/yii2-app-basic/web/index.php'
+    'REMOTE_PORT' => '57887'
+    'REDIRECT_URL' => '/user/profile'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/user/profile'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1437244090.888
+    'REQUEST_TIME' => 1437244090
+]
